@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @piyushbag
-- 👀 I’m interested in Poker
+- 👀 I love playing Poker
 - 🌱 I’m currently learning Blockchain Technologies
 - :student: I am currently looking Spring 2022/ Summer 2022 Software Engineer Intern roles
 - 💞️ I’m looking to collaborate and work on Social Network projects
