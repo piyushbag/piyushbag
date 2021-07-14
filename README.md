@@ -1,5 +1,5 @@
 - 👋 Hello,
-- :student: I am currently looking Spring 2022/ Summer 2022 Software Engineer Intern roles
+- :student: I am currently looking for Spring 2022/ Summer 2022 Software Engineer Intern roles
 - 👀 Also, I love playing Poker
 - 📫 If you want to play a game of poker or for any project collaboration or intern role opening reach me at Email: pbag@scu.edu
 
