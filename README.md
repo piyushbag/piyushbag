@@ -1,3 +1,5 @@
+![](https://komarev.com/ghpvc/?username=piyushbag&color=dc143c)
+
 - 👋 Hello,
 - :student: I am currently looking for Spring 2022/ Summer 2022 Software Engineer Intern roles
 - 👀 Also, I love playing Poker
