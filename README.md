@@ -1,7 +1,7 @@
 <!--![](https://komarev.com/ghpvc/?username=piyushbag&color=dc143c)-->
 
 - 👋 Hello,
-- :student: I am currently looking for Fall 2022 Software Engineer Intern roles
+- :student: I am currently looking for Fall 2022 Software Engineer Intern and Full Time roles starting December 2022.
 - 👀 Also, I love playing Poker
 - 📫 If you want to play a game of poker or for any project collaboration or intern role opening reach me at Email: pbag@scu.edu
 <!--
