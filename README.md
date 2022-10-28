@@ -3,7 +3,7 @@
 - 👋 Hello,
 - :student: I am currently looking for Full-Time Software Engineer roles starting December 2022.
 - 👀 Also, I love playing Poker
-- 📫 If you want to play a game of poker or for any project collaboration or intern role opening reach me at Email: pbag@scu.edu
+- 📫 If you want to play a game of poker or finding engineers for your startup reach me at Email: pbag@scu.edu
 <!--
 - [![Piyush's github stats](https://github-readme-stats.vercel.app/api?username=piyushbag)](https://github.com/piyushbag/github-readme-stats)
 -->
