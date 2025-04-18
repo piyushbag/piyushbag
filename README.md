@@ -1,9 +1,9 @@
 <!--![](https://komarev.com/ghpvc/?username=piyushbag&color=dc143c)-->
 
 - 👋 Hello,
-- :student: I am currently looking for Full-Time Software Engineer roles starting October 2023.
+- :student: I am currently looking for Full-Time Software Engineer roles starting October 2025.
 - 👀 Also, I love playing Poker
-- 📫 If you want to play a game of poker or finding engineers for your startup reach me at Email: pbag@scu.edu
+- 📫 If you want to play a game of poker or finding engineers for your startup reach me at Email: pbag@alumni.scu.edu
 <!--
 - [![Piyush's github stats](https://github-readme-stats.vercel.app/api?username=piyushbag)](https://github.com/piyushbag/github-readme-stats)
 -->
