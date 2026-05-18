@@ -14,10 +14,13 @@
 <a href="https://www.piyushbag.com"><img src="https://img.shields.io/badge/Website-piyushbag.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/piyushbag"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://twitter.com/piyushbagitall"><img src="https://img.shields.io/badge/X-@piyushbagitall-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-<a href="mailto:pbag@alumni.scu.edu"><img src="https://img.shields.io/badge/Email-pbag@alumni.scu.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:pbag@alumni.scu.edu"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=piyushbag&style=for-the-badge&color=00b4d8&label=Profile+Views" alt="profile views"/>
 <img src="https://img.shields.io/github/followers/piyushbag?label=Followers&style=for-the-badge&color=00b4d8" alt="followers"/>
+<img src="https://img.shields.io/github/stars/piyushbag?label=Stars&style=for-the-badge&color=00b4d8" alt="stars"/>
 
 </div>
 
@@ -27,6 +30,12 @@
 
 I'm **Piyush** — a backend infrastructure engineer based in Santa Clara, CA, currently building scalable, cloud-native platforms at **[Arista Networks](https://www.arista.com)**. I spend my days deep in the guts of distributed systems — service meshes, container orchestration, network data planes, and the long tail of failure modes that come with them.
 
+- 🔭 **Working on** — production-grade k8s + Istio platforms, and AI agents that triage incidents the way a senior on-call would
+- 🌱 **Learning** — eBPF dataplane acceleration, agentic workflows, and the open-source EDA toolchain
+- ✍️ **Writing** — latest post: [**Why Traditional Alerting Is Broken — And How AI Agents Finally Fix It**](https://www.piyushbag.com/blog/why-traditional-alerting-fails-ai-agents)
+- 🃏 **Off-shift** — poker (cash & MTT), long walks around the Bay, the occasional algo-trading rabbit hole
+- 📫 **Reach me** — [piyushbag.com](https://www.piyushbag.com) · [pbag@alumni.scu.edu](mailto:pbag@alumni.scu.edu)
+
 ```yaml
 name:        Piyush Bag
 role:        Software Engineer @ Arista Networks
@@ -35,10 +44,8 @@ education:   M.S. Computer Science, Santa Clara University
 focus:       backend · cloud-native · distributed systems · AIOps
 interests:   [k8s, service-mesh, observability, ai-agents, open-hardware]
 side-quest:  building tools for the open PCB / EDA ecosystem
-off-shift:   poker, long walks, the occasional deep-stack tournament ♠️
+motto:       "debug the system, not the symptom"
 ```
-
-> ✍️ Latest writing → [**Why Traditional Alerting Is Broken — And How AI Agents Finally Fix It**](https://www.piyushbag.com/blog/why-traditional-alerting-fails-ai-agents)
 
 ---
 
@@ -46,88 +53,63 @@ off-shift:   poker, long walks, the occasional deep-stack tournament ♠️
 
 <div align="center">
 
-**Languages**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=go,python,ts,cpp,bash,linux,docker,kubernetes,terraform,aws,gcp,nginx&theme=dark&perline=12" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,mongodb,prometheus,grafana,git,github,vscode,vim,react,nodejs&theme=dark&perline=12" />
+</a>
 
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-
-**Cloud-Native & Infra**
-
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-<img src="https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white" />
-<img src="https://img.shields.io/badge/Envoy-AC6199?style=for-the-badge&logo=envoyproxy&logoColor=white" />
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-
-**Cloud & Data**
-
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-
-**Hardware / EDA (side quest)**
-
-<img src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white" />
-<img src="https://img.shields.io/badge/OrCAD-CC0000?style=for-the-badge&logo=cadence&logoColor=white" />
-<img src="https://img.shields.io/badge/atopile-FFB000?style=for-the-badge" />
-<img src="https://img.shields.io/badge/ngspice-1F6FEB?style=for-the-badge" />
+<sub>Languages · Cloud-Native · Data · Observability · Frontend bits I touch on the side</sub>
 
 </div>
 
 ---
 
-## 🚀 What I'm Building
+## 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### [⚡ awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow)
+<a href="https://github.com/piyushbag/awesome-pcb-workflow">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=piyushbag&repo=awesome-pcb-workflow&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
+<a href="https://github.com/piyushbag/power_tool_file">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=piyushbag&repo=power_tool_file&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
 
-Curated open-source toolchain for the **full** PCB pipeline — schematic capture, SPICE simulation, signal integrity, layout automation, DFM, fabrication CI/CD, and hardware test agents. OrCAD- and KiCad-friendly.
+<a href="https://github.com/piyushbag/MERN-Stack-E-commerce-WebApp-Microservices">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=piyushbag&repo=MERN-Stack-E-commerce-WebApp-Microservices&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
+<a href="https://github.com/piyushbag/algorithmic-trading-python">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=piyushbag&repo=algorithmic-trading-python&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
 
-`hardware` · `eda` · `pcb` · `kicad` · `orcad` · `awesome-list`
+</div>
 
-</td>
-<td width="50%" valign="top">
+> 🔭 **`awesome-pcb-workflow`** is my current favorite hobby project — curating the full open-source PCB pipeline (schematic → SPICE → SI → layout → DFM → fab CI/CD → hardware test), OrCAD- and KiCad-friendly.
 
-### [🔭 piyushbag.com](https://www.piyushbag.com)
+---
 
-Personal site + engineering blog. Writing about distributed systems failure modes, service-mesh internals, and where AI agents actually earn their keep in production infra.
+## 🌍 Open-Source Contributions
 
-`writing` · `distributed-systems` · `aiops` · `kubernetes`
+A few projects I've been pushing PRs and issues into lately:
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### [📈 algorithmic-trading-python](https://github.com/piyushbag/algorithmic-trading-python)
+<a href="https://github.com/atopile/atopile">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=atopile&repo=atopile&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
+<a href="https://github.com/scipy-conference/scipy_proceedings">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=scipy-conference&repo=scipy_proceedings&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
 
-Python notebooks exploring quant strategies — equal-weight index reconstruction, momentum, value, and multi-factor screens. A long-running hobby project at the intersection of code and markets.
+<a href="https://github.com/ben-marshall/awesome-open-hardware-verification">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ben-marshall&repo=awesome-open-hardware-verification&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
+<a href="https://github.com/garrytan/gstack">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=garrytan&repo=gstack&hide_border=true&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&bg_color=0d1117" />
+</a>
 
-`python` · `quant` · `pandas` · `notebooks`
-
-</td>
-<td width="50%" valign="top">
-
-### [🛒 MERN-Stack-E-commerce-Microservices](https://github.com/piyushbag/MERN-Stack-E-commerce-WebApp-Microservices)
-
-A microservices e-commerce reference built on MongoDB, Express, React, and Node — auth, catalog, cart, orders, payments, and shipping as independent services.
-
-`microservices` · `node` · `react` · `mongodb`
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -158,18 +140,46 @@ A microservices e-commerce reference built on MongoDB, Express, React, and Node 
 
 ---
 
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/piyushbag/piyushbag/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/piyushbag/piyushbag/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/piyushbag/piyushbag/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<sub>Watch a snake nom my green squares. Powered by <a href="https://github.com/Platane/snk">Platane/snk</a>, regenerated daily by GitHub Actions.</sub>
+
+</div>
+
+---
+
+## 💭 Quote of the Day
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="random dev quote"/>
+
+</div>
+
+---
+
 ## 🌱 Currently Exploring
 
-- 🤖 **AI agents for production infra** — replacing brittle threshold alerts with LLM-driven root-cause loops
-- 🕸️ **Service mesh dataplane internals** — Envoy filters, xDS, eBPF-accelerated paths
-- 🔌 **Open hardware tooling** — code-first EDA (atopile, SKiDL), CI/CD for PCBs (KiBot)
-- 🃏 **Poker math** — solver workflows, GTO ranges, and the eternal hunt for a +EV edge
+| Theme | What & Why |
+| --- | --- |
+| 🤖 **AI agents for infra** | Replacing brittle threshold alerts with LLM-driven RCA loops — see [the blog post](https://www.piyushbag.com/blog/why-traditional-alerting-fails-ai-agents) |
+| 🕸️ **Service mesh internals** | Envoy filters, xDS, eBPF-accelerated paths, and where mesh actually earns its overhead |
+| 🔌 **Open hardware tooling** | Code-first EDA (atopile, SKiDL), CI/CD for PCBs (KiBot), open SI/EMC simulation |
+| 🃏 **Poker math** | Solver workflows, GTO ranges, and the eternal hunt for a +EV edge |
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm always up for a chat about distributed systems, cloud-native platforms, AI-augmented ops, open hardware — or a friendly cash game if you're in the Bay Area.
+I'm always up for a chat about distributed systems, cloud-native platforms, AI-augmented ops, or open hardware — or a friendly cash game if you're in the Bay Area.
 
 <div align="center">
 
