@@ -3,6 +3,17 @@
   "author": "piyushbag",
   "pull_requests": [
     {
+      "number": 10,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "Contributing: group by org, then repo, then PR",
+      "updatedAt": "2026-06-30T16:40:39Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/10"
+    },
+    {
       "number": 2983,
       "repository": {
         "name": "modelcontextprotocol",

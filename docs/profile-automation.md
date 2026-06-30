@@ -23,6 +23,8 @@ Your GitHub profile README is **generated**, not hand-edited. Two cloud layers k
 2. **Exclude** PRs to your own repos (`piyushbag/*`) — those belong in **Building**, not upstream contributions.
 3. Group by **GitHub org** → **repo** → **PR** (three levels: org bullet, nested repo + star badge, nested PR lines with 4-space indent).
 
+Star badges use static counts from `gh` at generate time (`badge/stars-N-gold`). Avoid dynamic `github/stars` shields URLs; they often render as `invalid` on profile READMEs.
+
 ## Manual run
 
 ```bash
