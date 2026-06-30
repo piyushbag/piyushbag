@@ -12,6 +12,7 @@ contributing_exclude_owners:
 contributing_exclude_repos:
   - SimplifyJobs/Summer2026-Internships
   - github-education-resources/GitHubGraduation-2022
+  - hatchways-community/fetch-the-most-active-workplaces-c945f640311644ed82f3b30f3430fa75
 
 # Ignore upstream PRs last updated before this date (ISO).
 contributing_since: "2025-01-01"
