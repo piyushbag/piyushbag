@@ -17,6 +17,7 @@ merge_protections:
   - name: profile-bugbot
     if:
       - base = main
+      - author = piyushbag
     success_conditions:
       - check-success-or-neutral = Cursor Bugbot
 
@@ -37,7 +38,6 @@ pull_request_rules:
       - author = github-actions[bot]
       - head ~= ^bot/profile-readme-daily
       - -closed
-      - check-success-or-neutral = Cursor Bugbot
     actions:
       merge:
         method: squash
