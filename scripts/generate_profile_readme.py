@@ -235,7 +235,12 @@ def main() -> int:
         return 0
 
     README_PATH.write_text(readme, encoding="utf-8")
-    print(f"README.md updated ({len(prs)} PRs scanned, {len(build_contributing_lines(config, prs))} upstream repos)")
+    repo_count = len(set(
+        pr["repository"]["nameWithOwner"]
+        for pr in prs
+        if should_include_repo(config, pr["repository"]["nameWithOwner"]) and pr_recent_enough(config, pr)
+    ))
+    print(f"README.md updated ({len(prs)} PRs scanned, {repo_count} upstream repos)")
     return 0
 
 
