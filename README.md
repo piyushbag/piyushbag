@@ -26,6 +26,6 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
 
 Technical posts on hardware test automation, MCP, and agentic engineering: [piyushbag.com/blog](https://www.piyushbag.com/blog)
 
-*Last updated: 2026-06-29*
+*Last updated: 2026-06-30*
 
 <!-- piyushbag/piyushbag is a special repository: README.md appears on your GitHub profile. -->
