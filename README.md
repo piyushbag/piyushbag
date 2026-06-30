@@ -6,23 +6,23 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
 
 #### Building
 
-- **[awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow)** [![GitHub stars](https://img.shields.io/github/stars/piyushbag/awesome-pcb-workflow?style=flat&color=gold)](https://github.com/piyushbag/awesome-pcb-workflow) - Curated PCB design automation stack: AI-assisted EDA, DFM, fab CI/CD, hardware testing agents. KiCad and OrCAD compatible.
-- **[awesome-dvt-automation](https://github.com/piyushbag/awesome-dvt-automation)** [![GitHub stars](https://img.shields.io/github/stars/piyushbag/awesome-dvt-automation?style=flat&color=gold)](https://github.com/piyushbag/awesome-dvt-automation) - Post-silicon validation tool landscape: 81 tools across 12 pipeline stages.
+- **[awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow)** [![GitHub stars](https://img.shields.io/badge/stars-9-gold?style=flat&logo=github&logoColor=white)](https://github.com/piyushbag/awesome-pcb-workflow/stargazers) - Curated PCB design automation stack: AI-assisted EDA, DFM, fab CI/CD, hardware testing agents. KiCad and OrCAD compatible.
+- **[awesome-dvt-automation](https://github.com/piyushbag/awesome-dvt-automation)** [![GitHub stars](https://img.shields.io/badge/stars-0-gold?style=flat&logo=github&logoColor=white)](https://github.com/piyushbag/awesome-dvt-automation/stargazers) - Post-silicon validation tool landscape: 81 tools across 12 pipeline stages.
 
 #### Contributing to
 
 - **[Model Context Protocol](https://github.com/modelcontextprotocol)**
-  - **[MCP Servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat&color=gold)](https://github.com/modelcontextprotocol/servers)
+  - **[MCP Servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/badge/stars-87888-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/servers/stargazers)
     - feat(fetch): add tool annotations for fetch tool ([#4428](https://github.com/modelcontextprotocol/servers/pull/4428))
-  - **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/python-sdk)
+  - **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-23491-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/python-sdk/stargazers)
     - fix(auth): strip trailing slashes from OAuth metadata URLs ([#3013](https://github.com/modelcontextprotocol/python-sdk/pull/3013))
-  - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/inspector?style=flat&color=gold)](https://github.com/modelcontextprotocol/inspector)
+  - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** [![GitHub stars](https://img.shields.io/badge/stars-10229-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/inspector/stargazers)
     - fix(ci): link e2e PR summary to Playwright artifact download (#1259) ([#1539](https://github.com/modelcontextprotocol/inspector/pull/1539))
-  - **[MCP Specification](https://github.com/modelcontextprotocol/modelcontextprotocol)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol?style=flat&color=gold)](https://github.com/modelcontextprotocol/modelcontextprotocol)
+  - **[MCP Specification](https://github.com/modelcontextprotocol/modelcontextprotocol)** [![GitHub stars](https://img.shields.io/badge/stars-8506-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/modelcontextprotocol/stargazers)
     - docs: simplify Mcp-Param client note for missing inputSchema ([#2983](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983))
-  - **[MCP Registry](https://github.com/modelcontextprotocol/registry)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=flat&color=gold)](https://github.com/modelcontextprotocol/registry)
+  - **[MCP Registry](https://github.com/modelcontextprotocol/registry)** [![GitHub stars](https://img.shields.io/badge/stars-6972-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/registry/stargazers)
     - fix(handlers): return 499 on client cancel for get-server endpoints ([#1401](https://github.com/modelcontextprotocol/registry/pull/1401))
-  - **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/go-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/go-sdk)
+  - **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-4749-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/go-sdk/stargazers)
     - fix(jsonrpc2): decode requests when method key is present ([#999](https://github.com/modelcontextprotocol/go-sdk/pull/999))
     - fix(jsonrpc2): decode requests when method key is present ([#1000](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged)
     - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1001](https://github.com/modelcontextprotocol/go-sdk/pull/1001))
@@ -31,21 +31,21 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
     - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1029](https://github.com/modelcontextprotocol/go-sdk/pull/1029))
     - mcp: add ListResourcesHandler for dynamic resources/list ([#1030](https://github.com/modelcontextprotocol/go-sdk/pull/1030))
 - **[Goose (AAIF)](https://github.com/aaif-goose)**
-  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/github/stars/aaif-goose/goose?style=flat&color=gold)](https://github.com/aaif-goose/goose)
+  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/badge/stars-50466-gold?style=flat&logo=github&logoColor=white)](https://github.com/aaif-goose/goose/stargazers)
     - fix(desktop): honor GOOSE_CONTEXT_LIMIT for custom model context display ([#10070](https://github.com/aaif-goose/goose/pull/10070))
 - **[agentsmd](https://github.com/agentsmd)**
-  - **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/github/stars/agentsmd/agents.md?style=flat&color=gold)](https://github.com/agentsmd/agents.md)
+  - **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/badge/stars-22638-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentsmd/agents.md/stargazers)
     - Add OpenHands to compatibility section ([#202](https://github.com/agentsmd/agents.md/pull/202))
     - feat(compat): OpenHands listing and daily-seeded agent order ([#203](https://github.com/agentsmd/agents.md/pull/203))
 - **[mcp-use](https://github.com/mcp-use)**
-  - **[mcp-use](https://github.com/mcp-use/mcp-use)** [![GitHub stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&color=gold)](https://github.com/mcp-use/mcp-use)
+  - **[mcp-use](https://github.com/mcp-use/mcp-use)** [![GitHub stars](https://img.shields.io/badge/stars-10180-gold?style=flat&logo=github&logoColor=white)](https://github.com/mcp-use/mcp-use/stargazers)
     - fix(react): isolate useMcp connection lifecycle (Option A) ([#1708](https://github.com/mcp-use/mcp-use/pull/1708))
 - **[agentgateway](https://github.com/agentgateway)**
-  - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/github/stars/agentgateway/agentgateway?style=flat&color=gold)](https://github.com/agentgateway/agentgateway)
+  - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/badge/stars-3601-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentgateway/agentgateway/stargazers)
     - docs: EP-2141 governance metadata for gateway traces ([#2205](https://github.com/agentgateway/agentgateway/pull/2205))
     - fix(mcp): route client JSON-RPC responses for server-initiated requests ([#2207](https://github.com/agentgateway/agentgateway/pull/2207))
 - **[gofixpoint](https://github.com/gofixpoint)**
-  - **[Amika](https://github.com/gofixpoint/amika)** [![GitHub stars](https://img.shields.io/github/stars/gofixpoint/amika?style=flat&color=gold)](https://github.com/gofixpoint/amika)
+  - **[Amika](https://github.com/gofixpoint/amika)** [![GitHub stars](https://img.shields.io/badge/stars-81-gold?style=flat&logo=github&logoColor=white)](https://github.com/gofixpoint/amika/stargazers)
     - feat: stream agent stdout/stderr in real time (closes #156) ([#262](https://github.com/gofixpoint/amika/pull/262))
 
 #### Writing

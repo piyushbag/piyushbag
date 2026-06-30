@@ -99,6 +99,15 @@ def should_include_repo(config: dict, repo: str) -> bool:
     return owner not in exclude_owners
 
 
+def star_badge_markdown(repo: str) -> str:
+    """Static shields badge (avoids shields.io/github/stars rate limits on profile README)."""
+    count = repo_stars(repo)
+    return (
+        f"[![GitHub stars](https://img.shields.io/badge/stars-{count}-gold"
+        f"?style=flat&logo=github&logoColor=white)](https://github.com/{repo}/stargazers)"
+    )
+
+
 def format_pr(pr: dict) -> str:
     num = pr["number"]
     url = pr["url"]
@@ -139,8 +148,7 @@ def build_contributing_lines(config: dict, prs: list[dict]) -> list[str]:
         for repo in sorted(by_org[org], key=lambda r: (-repo_stars(r), r.lower())):
             name = display_name(config, repo)
             lines.append(
-                f"  - **[{name}](https://github.com/{repo})** "
-                f"[![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat&color=gold)](https://github.com/{repo})"
+                f"  - **[{name}](https://github.com/{repo})** {star_badge_markdown(repo)}"
             )
             for pr in sorted(by_repo[repo], key=lambda p: p["number"]):
                 lines.append(f"    - {format_pr(pr)}")
@@ -196,7 +204,7 @@ def build_readme(config: dict, prs: list[dict]) -> str:
         desc = item["description"]
         building_lines.append(
             f"- **[{repo.split('/')[-1]}](https://github.com/{repo})** "
-            f"[![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat&color=gold)](https://github.com/{repo}) "
+            f"{star_badge_markdown(repo)} "
             f"- {desc}"
         )
 
