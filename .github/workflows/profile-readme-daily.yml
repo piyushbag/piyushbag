@@ -23,10 +23,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh README
+      - name: Install script dependencies
+        run: pip install -r profile/requirements.txt
+
+      - name: Generate README from live PRs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/update_profile_readme.py
+        run: python3 scripts/generate_profile_readme.py
 
       - name: Open PR if changed
         uses: peter-evans/create-pull-request@v6
@@ -40,8 +43,7 @@ jobs:
             Automated daily refresh from `.github/workflows/profile-readme-daily.yml`.
 
             Updates:
-            - `*Last updated*` date
-            - `awesome-pcb-workflow` star count in tagline
-            - `merged` labels on tracked pull requests
+            - Regenerates **Contributing to** from all upstream PRs (`gh search prs --author=piyushbag`)
+            - Refreshes `*Last updated*` and `profile/pr-snapshot.json`
 
             Mergify auto-merges when Cursor Bugbot passes.

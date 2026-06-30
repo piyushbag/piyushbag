@@ -1,0 +1,51 @@
+# Profile README generator config (piyushbag/piyushbag)
+# Upstream PRs are fetched daily via gh; own-repo PRs stay out of Contributing.
+
+author: piyushbag
+pr_search_limit: 100
+
+# Do not list PRs to your own repos under Contributing to (Building section covers those).
+contributing_exclude_owners:
+  - piyushbag
+
+# Optional extra repo blocks (fork mirrors, private sync repos, etc.)
+contributing_exclude_repos:
+  - SimplifyJobs/Summer2026-Internships
+  - github-education-resources/GitHubGraduation-2022
+
+# Ignore upstream PRs last updated before this date (ISO).
+contributing_since: "2025-01-01"
+
+display_names:
+  modelcontextprotocol/go-sdk: MCP Go SDK
+  modelcontextprotocol/python-sdk: MCP Python SDK
+  modelcontextprotocol/typescript-sdk: MCP TypeScript SDK
+  modelcontextprotocol/registry: MCP Registry
+  modelcontextprotocol/servers: MCP Servers
+  modelcontextprotocol/inspector: MCP Inspector
+  modelcontextprotocol/modelcontextprotocol: MCP Specification
+  agentsmd/agents.md: AGENTS.md
+  mcp-use/mcp-use: mcp-use
+  agentgateway/agentgateway: agentgateway
+  block/goose: Goose
+  aaif-goose/goose: Goose
+
+building:
+  - repo: piyushbag/awesome-pcb-workflow
+    description: "Curated PCB design automation stack: AI-assisted EDA, DFM, fab CI/CD, hardware testing agents. KiCad and OrCAD compatible."
+  - repo: piyushbag/awesome-dvt-automation
+    description: "Post-silicon validation tool landscape: 81 tools across 12 pipeline stages."
+
+writing:
+  text: "Technical posts on hardware test automation, MCP, and agentic engineering"
+  url: "https://www.piyushbag.com/blog"
+
+social:
+  blog: "https://www.piyushbag.com"
+  linkedin: "https://linkedin.com/in/piyushbag"
+  x: "https://x.com/piyushbagitall"
+
+role:
+  company: Arista Networks
+  company_url: "https://www.arista.com"
+  tagline: "Post-silicon validation, hardware ops, and agentic test automation."

@@ -1,0 +1,699 @@
+{
+  "generated_at": "2026-06-30",
+  "author": "piyushbag",
+  "pull_requests": [
+    {
+      "number": 5,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "fix(mergify): auto-merge daily bot PRs without Bugbot",
+      "updatedAt": "2026-06-30T06:30:08Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/5"
+    },
+    {
+      "number": 3,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "fix(ci): use preinstalled gh in daily README workflow",
+      "updatedAt": "2026-06-30T06:23:46Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/3"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "Add Mergify auto-merge and daily README refresh",
+      "updatedAt": "2026-06-30T06:19:22Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/2"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "Rewrite profile README: Building + Contributing sections",
+      "updatedAt": "2026-06-30T06:11:29Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/1"
+    },
+    {
+      "number": 2205,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "docs: EP-2141 governance metadata for gateway traces",
+      "updatedAt": "2026-06-29T14:24:40Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2205"
+    },
+    {
+      "number": 203,
+      "repository": {
+        "name": "agents.md",
+        "nameWithOwner": "agentsmd/agents.md"
+      },
+      "state": "open",
+      "title": "feat(compat): OpenHands listing and daily-seeded agent order",
+      "updatedAt": "2026-06-28T16:05:36Z",
+      "url": "https://github.com/agentsmd/agents.md/pull/203"
+    },
+    {
+      "number": 2207,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
+      "updatedAt": "2026-06-28T10:34:09Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
+    },
+    {
+      "number": 3013,
+      "repository": {
+        "name": "python-sdk",
+        "nameWithOwner": "modelcontextprotocol/python-sdk"
+      },
+      "state": "open",
+      "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
+      "updatedAt": "2026-06-28T10:25:24Z",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
+    },
+    {
+      "number": 1401,
+      "repository": {
+        "name": "registry",
+        "nameWithOwner": "modelcontextprotocol/registry"
+      },
+      "state": "open",
+      "title": "fix(handlers): return 499 on client cancel for get-server endpoints",
+      "updatedAt": "2026-06-28T10:11:14Z",
+      "url": "https://github.com/modelcontextprotocol/registry/pull/1401"
+    },
+    {
+      "number": 10070,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "fix(desktop): honor GOOSE_CONTEXT_LIMIT for custom model context display",
+      "updatedAt": "2026-06-28T10:09:04Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10070"
+    },
+    {
+      "number": 4428,
+      "repository": {
+        "name": "servers",
+        "nameWithOwner": "modelcontextprotocol/servers"
+      },
+      "state": "open",
+      "title": "feat(fetch): add tool annotations for fetch tool",
+      "updatedAt": "2026-06-28T10:07:28Z",
+      "url": "https://github.com/modelcontextprotocol/servers/pull/4428"
+    },
+    {
+      "number": 2983,
+      "repository": {
+        "name": "modelcontextprotocol",
+        "nameWithOwner": "modelcontextprotocol/modelcontextprotocol"
+      },
+      "state": "open",
+      "title": "docs: simplify Mcp-Param client note for missing inputSchema",
+      "updatedAt": "2026-06-28T10:06:30Z",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983"
+    },
+    {
+      "number": 1539,
+      "repository": {
+        "name": "inspector",
+        "nameWithOwner": "modelcontextprotocol/inspector"
+      },
+      "state": "open",
+      "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
+      "updatedAt": "2026-06-28T10:05:54Z",
+      "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "blog-portfolio",
+        "nameWithOwner": "piyushbag/blog-portfolio"
+      },
+      "state": "merged",
+      "title": "Why Hardware Test Teams Need MCP Before They Need Another Agent Dashboard",
+      "updatedAt": "2026-06-28T04:22:37Z",
+      "url": "https://github.com/piyushbag/blog-portfolio/pull/2"
+    },
+    {
+      "number": 1029,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "open",
+      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
+      "updatedAt": "2026-06-27T18:14:26Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "piyushbag/go-sdk"
+      },
+      "state": "merged",
+      "title": "Set up Cursor Cloud dev environment",
+      "updatedAt": "2026-06-27T18:08:52Z",
+      "url": "https://github.com/piyushbag/go-sdk/pull/1"
+    },
+    {
+      "number": 1002,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "closed",
+      "title": "mcp: add ListResourcesHandler for dynamic resources/list",
+      "updatedAt": "2026-06-27T18:06:51Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1002"
+    },
+    {
+      "number": 1001,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "closed",
+      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
+      "updatedAt": "2026-06-27T18:06:51Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1001"
+    },
+    {
+      "number": 1030,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "open",
+      "title": "mcp: add ListResourcesHandler for dynamic resources/list",
+      "updatedAt": "2026-06-27T17:56:05Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1030"
+    },
+    {
+      "number": 1013,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "closed",
+      "title": "mcp: deprecate roots, sampling, and logging (SEP-2577)",
+      "updatedAt": "2026-06-23T09:11:10Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1013"
+    },
+    {
+      "number": 6,
+      "repository": {
+        "name": "billionaire",
+        "nameWithOwner": "piyushbag/billionaire"
+      },
+      "state": "open",
+      "title": "Add Chamath discourse research agent (Vertex AI + Sheets)",
+      "updatedAt": "2026-06-17T16:01:58Z",
+      "url": "https://github.com/piyushbag/billionaire/pull/6"
+    },
+    {
+      "number": 1000,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "merged",
+      "title": "fix(jsonrpc2): decode requests when method key is present",
+      "updatedAt": "2026-06-16T07:57:19Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1000"
+    },
+    {
+      "number": 1708,
+      "repository": {
+        "name": "mcp-use",
+        "nameWithOwner": "mcp-use/mcp-use"
+      },
+      "state": "open",
+      "title": "fix(react): isolate useMcp connection lifecycle (Option A)",
+      "updatedAt": "2026-06-15T13:13:33Z",
+      "url": "https://github.com/mcp-use/mcp-use/pull/1708"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "millionaires-saas-landing-page",
+        "nameWithOwner": "piyushbag/millionaires-saas-landing-page"
+      },
+      "state": "merged",
+      "title": "Sync iCloud local changes",
+      "updatedAt": "2026-06-15T02:21:05Z",
+      "url": "https://github.com/piyushbag/millionaires-saas-landing-page/pull/1"
+    },
+    {
+      "number": 5,
+      "repository": {
+        "name": "eb1a",
+        "nameWithOwner": "piyushbag/eb1a"
+      },
+      "state": "merged",
+      "title": "Sync iCloud local changes (14 auto-backup commits)",
+      "updatedAt": "2026-06-15T02:19:21Z",
+      "url": "https://github.com/piyushbag/eb1a/pull/5"
+    },
+    {
+      "number": 3,
+      "repository": {
+        "name": "sort-gmail",
+        "nameWithOwner": "piyushbag/sort-gmail"
+      },
+      "state": "open",
+      "title": "test: verify Mergify auto-merge",
+      "updatedAt": "2026-06-15T01:30:11Z",
+      "url": "https://github.com/piyushbag/sort-gmail/pull/3"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "sort-gmail",
+        "nameWithOwner": "piyushbag/sort-gmail"
+      },
+      "state": "merged",
+      "title": "refactor: hexagonal architecture and clean package layout",
+      "updatedAt": "2026-06-12T05:07:10Z",
+      "url": "https://github.com/piyushbag/sort-gmail/pull/1"
+    },
+    {
+      "number": 5,
+      "repository": {
+        "name": "location-money-opportunity-cost",
+        "nameWithOwner": "piyushbag/location-money-opportunity-cost"
+      },
+      "state": "open",
+      "title": "chore: rename to location-money-opportunity-cost",
+      "updatedAt": "2026-06-11T17:57:46Z",
+      "url": "https://github.com/piyushbag/location-money-opportunity-cost/pull/5"
+    },
+    {
+      "number": 202,
+      "repository": {
+        "name": "agents.md",
+        "nameWithOwner": "agentsmd/agents.md"
+      },
+      "state": "closed",
+      "title": "Add OpenHands to compatibility section",
+      "updatedAt": "2026-06-11T02:37:45Z",
+      "url": "https://github.com/agentsmd/agents.md/pull/202"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "network-time-opportunity-cost",
+        "nameWithOwner": "piyushbag/network-time-opportunity-cost"
+      },
+      "state": "merged",
+      "title": "chore: rename to network-time-opportunity-cost",
+      "updatedAt": "2026-06-10T17:51:08Z",
+      "url": "https://github.com/piyushbag/network-time-opportunity-cost/pull/2"
+    },
+    {
+      "number": 4,
+      "repository": {
+        "name": "location-money-opportunity-cost",
+        "nameWithOwner": "piyushbag/location-money-opportunity-cost"
+      },
+      "state": "open",
+      "title": "fix(map): clamp pan and zoom to Bay Area counties",
+      "updatedAt": "2026-06-10T17:49:12Z",
+      "url": "https://github.com/piyushbag/location-money-opportunity-cost/pull/4"
+    },
+    {
+      "number": 3,
+      "repository": {
+        "name": "location-money-opportunity-cost",
+        "nameWithOwner": "piyushbag/location-money-opportunity-cost"
+      },
+      "state": "open",
+      "title": "fix(ship): address Bugbot findings in ship.sh",
+      "updatedAt": "2026-06-10T17:46:35Z",
+      "url": "https://github.com/piyushbag/location-money-opportunity-cost/pull/3"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "location-money-opportunity-cost",
+        "nameWithOwner": "piyushbag/location-money-opportunity-cost"
+      },
+      "state": "open",
+      "title": "ci: fix Vercel deploy pipeline and ship workflow",
+      "updatedAt": "2026-06-10T17:43:58Z",
+      "url": "https://github.com/piyushbag/location-money-opportunity-cost/pull/2"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "location-money-opportunity-cost",
+        "nameWithOwner": "piyushbag/location-money-opportunity-cost"
+      },
+      "state": "merged",
+      "title": "feat: Bay Area atlas \u2014 101 cities interactive map",
+      "updatedAt": "2026-06-10T17:17:52Z",
+      "url": "https://github.com/piyushbag/location-money-opportunity-cost/pull/1"
+    },
+    {
+      "number": 3,
+      "repository": {
+        "name": "eb1a",
+        "nameWithOwner": "piyushbag/eb1a"
+      },
+      "state": "merged",
+      "title": "Ship judging outreach automation + Cloud Agent fixes",
+      "updatedAt": "2026-06-10T16:11:35Z",
+      "url": "https://github.com/piyushbag/eb1a/pull/3"
+    },
+    {
+      "number": 4,
+      "repository": {
+        "name": "eb1a",
+        "nameWithOwner": "piyushbag/eb1a"
+      },
+      "state": "merged",
+      "title": "Bugbot + Mergify; judging automation on main",
+      "updatedAt": "2026-06-10T16:09:01Z",
+      "url": "https://github.com/piyushbag/eb1a/pull/4"
+    },
+    {
+      "number": 999,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "closed",
+      "title": "fix(jsonrpc2): decode requests when method key is present",
+      "updatedAt": "2026-06-10T02:26:28Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/999"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "network-time-opportunity-cost",
+        "nameWithOwner": "piyushbag/network-time-opportunity-cost"
+      },
+      "state": "merged",
+      "title": "Phase 1: Network Opportunity Cost research foundation",
+      "updatedAt": "2026-06-09T12:15:20Z",
+      "url": "https://github.com/piyushbag/network-time-opportunity-cost/pull/1"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "awesome-dvt-automation",
+        "nameWithOwner": "piyushbag/awesome-dvt-automation"
+      },
+      "state": "open",
+      "title": "Monthly automation: discover DVT tools and open PRs",
+      "updatedAt": "2026-06-08T08:15:56Z",
+      "url": "https://github.com/piyushbag/awesome-dvt-automation/pull/2"
+    },
+    {
+      "number": 4,
+      "repository": {
+        "name": "awesome-dvt-automation",
+        "nameWithOwner": "piyushbag/awesome-dvt-automation"
+      },
+      "state": "open",
+      "title": "Add social launch pack and Dev.to publish script",
+      "updatedAt": "2026-06-08T08:19:06Z",
+      "url": "https://github.com/piyushbag/awesome-dvt-automation/pull/4"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "awesome-dvt-automation",
+        "nameWithOwner": "piyushbag/awesome-dvt-automation"
+      },
+      "state": "open",
+      "title": "Fix ruleset JSON format for GitHub rules API",
+      "updatedAt": "2026-06-08T08:13:43Z",
+      "url": "https://github.com/piyushbag/awesome-dvt-automation/pull/1"
+    },
+    {
+      "number": 5,
+      "repository": {
+        "name": "billionaire",
+        "nameWithOwner": "piyushbag/billionaire"
+      },
+      "state": "closed",
+      "title": "ci: disable CodeRabbit per-repo (Bugbot + Mergify only)",
+      "updatedAt": "2026-06-08T01:51:12Z",
+      "url": "https://github.com/piyushbag/billionaire/pull/5"
+    },
+    {
+      "number": 4,
+      "repository": {
+        "name": "billionaire",
+        "nameWithOwner": "piyushbag/billionaire"
+      },
+      "state": "closed",
+      "title": "ci: dogfood round 3 \u2014 Cursor Bugbot + Mergify smoke test",
+      "updatedAt": "2026-06-08T01:37:24Z",
+      "url": "https://github.com/piyushbag/billionaire/pull/4"
+    },
+    {
+      "number": 3,
+      "repository": {
+        "name": "billionaire",
+        "nameWithOwner": "piyushbag/billionaire"
+      },
+      "state": "merged",
+      "title": "ci: dogfood round 2 \u2014 Mergify auto-merge smoke test",
+      "updatedAt": "2026-06-08T01:01:43Z",
+      "url": "https://github.com/piyushbag/billionaire/pull/3"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "billionaire",
+        "nameWithOwner": "piyushbag/billionaire"
+      },
+      "state": "merged",
+      "title": "ci: dogfood \u2014 full guardrail workflow smoke test",
+      "updatedAt": "2026-06-08T00:53:49Z",
+      "url": "https://github.com/piyushbag/billionaire/pull/2"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "billionaire",
+        "nameWithOwner": "piyushbag/billionaire"
+      },
+      "state": "merged",
+      "title": "docs: record main branch ruleset configuration",
+      "updatedAt": "2026-06-08T00:42:32Z",
+      "url": "https://github.com/piyushbag/billionaire/pull/1"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "eb1a",
+        "nameWithOwner": "piyushbag/eb1a"
+      },
+      "state": "merged",
+      "title": "Add CodeRabbit + Mergify for AI review and auto-merge",
+      "updatedAt": "2026-06-08T00:05:38Z",
+      "url": "https://github.com/piyushbag/eb1a/pull/2"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "eb1a",
+        "nameWithOwner": "piyushbag/eb1a"
+      },
+      "state": "merged",
+      "title": "Complete Phase 3: branch protection and full main CI gate",
+      "updatedAt": "2026-06-07T23:46:45Z",
+      "url": "https://github.com/piyushbag/eb1a/pull/1"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "awesome-pcb-workflow",
+        "nameWithOwner": "piyushbag/awesome-pcb-workflow"
+      },
+      "state": "merged",
+      "title": "Fix all CI lint errors (MD026, MD032, MD040) and broken-link checker",
+      "updatedAt": "2026-05-18T00:21:38Z",
+      "url": "https://github.com/piyushbag/awesome-pcb-workflow/pull/1"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "signal-v0",
+        "nameWithOwner": "piyushbag/signal-v0"
+      },
+      "state": "open",
+      "title": "Add thread detail page for Next.js dashboard",
+      "updatedAt": "2025-06-30T06:53:04Z",
+      "url": "https://github.com/piyushbag/signal-v0/pull/1"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "arista-phw-codebase",
+        "nameWithOwner": "piyushbag/arista-phw-codebase"
+      },
+      "state": "open",
+      "title": "Add prototype EDVT/MDVT dashboard",
+      "updatedAt": "2025-06-09T08:47:21Z",
+      "url": "https://github.com/piyushbag/arista-phw-codebase/pull/1"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "fetch-the-most-active-workplaces-c945f640311644ed82f3b30f3430fa75",
+        "nameWithOwner": "hatchways-community/fetch-the-most-active-workplaces-c945f640311644ed82f3b30f3430fa75"
+      },
+      "state": "open",
+      "title": "Implement getTopWorkplacesByShifts method and test script",
+      "updatedAt": "2025-06-06T05:13:15Z",
+      "url": "https://github.com/hatchways-community/fetch-the-most-active-workplaces-c945f640311644ed82f3b30f3430fa75/pull/1"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "power-measurement-v1",
+        "nameWithOwner": "piyushbag/power-measurement-v1"
+      },
+      "state": "closed",
+      "title": "Test cicd",
+      "updatedAt": "2025-05-30T02:10:31Z",
+      "url": "https://github.com/piyushbag/power-measurement-v1/pull/2"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "power-measurement-v1",
+        "nameWithOwner": "piyushbag/power-measurement-v1"
+      },
+      "state": "open",
+      "title": "Add CI/CD configuration and UI improvements",
+      "updatedAt": "2025-05-30T00:23:59Z",
+      "url": "https://github.com/piyushbag/power-measurement-v1/pull/1"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "go-vault",
+        "nameWithOwner": "piyushbag/go-vault"
+      },
+      "state": "open",
+      "title": "feature/oms-go/protocol-buffers",
+      "updatedAt": "2024-07-11T23:08:02Z",
+      "url": "https://github.com/piyushbag/go-vault/pull/1"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "ipq-p1",
+        "nameWithOwner": "piyushbag/ipq-p1"
+      },
+      "state": "merged",
+      "title": "add delete/add api for admin",
+      "updatedAt": "2023-07-20T19:40:00Z",
+      "url": "https://github.com/piyushbag/ipq-p1/pull/2"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "ipq-p1",
+        "nameWithOwner": "piyushbag/ipq-p1"
+      },
+      "state": "merged",
+      "title": "added post and delete api for admin",
+      "updatedAt": "2023-07-20T18:35:08Z",
+      "url": "https://github.com/piyushbag/ipq-p1/pull/1"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "go-api-project",
+        "nameWithOwner": "piyushbag/go-api-project"
+      },
+      "state": "merged",
+      "title": "added crud api using net/http and gorilla/mux",
+      "updatedAt": "2023-05-08T04:58:38Z",
+      "url": "https://github.com/piyushbag/go-api-project/pull/1"
+    },
+    {
+      "number": 3,
+      "repository": {
+        "name": "grok",
+        "nameWithOwner": "piyushbag/grok"
+      },
+      "state": "open",
+      "title": "test: find median from data stream using two heaps",
+      "updatedAt": "2022-12-22T08:00:11Z",
+      "url": "https://github.com/piyushbag/grok/pull/3"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "grok",
+        "nameWithOwner": "piyushbag/grok"
+      },
+      "state": "open",
+      "title": "Leetcode 658. Find 'K' Closest Elements",
+      "updatedAt": "2022-12-18T03:27:49Z",
+      "url": "https://github.com/piyushbag/grok/pull/2"
+    },
+    {
+      "number": 1,
+      "repository": {
+        "name": "grok",
+        "nameWithOwner": "piyushbag/grok"
+      },
+      "state": "merged",
+      "title": "removed find k closest element for new pull request",
+      "updatedAt": "2022-12-18T02:41:00Z",
+      "url": "https://github.com/piyushbag/grok/pull/1"
+    },
+    {
+      "number": 2836,
+      "repository": {
+        "name": "GitHubGraduation-2022",
+        "nameWithOwner": "github-education-resources/GitHubGraduation-2022"
+      },
+      "state": "merged",
+      "title": "Added piyushbag",
+      "updatedAt": "2022-05-05T02:50:33Z",
+      "url": "https://github.com/github-education-resources/GitHubGraduation-2022/pull/2836"
+    },
+    {
+      "number": 382,
+      "repository": {
+        "name": "Summer2026-Internships",
+        "nameWithOwner": "SimplifyJobs/Summer2026-Internships"
+      },
+      "state": "merged",
+      "title": "Add-VMware-internship",
+      "updatedAt": "2021-07-14T18:21:44Z",
+      "url": "https://github.com/SimplifyJobs/Summer2026-Internships/pull/382"
+    }
+  ]
+}
