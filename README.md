@@ -2,7 +2,7 @@
 
 [![Blog](https://img.shields.io/badge/Blog-piyushbag.com-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://www.piyushbag.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushbag-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/piyushbag) [![X @piyushbagitall](https://img.shields.io/badge/X-@piyushbagitall-000?style=flat&logo=x)](https://x.com/piyushbagitall)
 
-Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 9★ · [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged · [agentgateway](https://github.com/agentgateway/agentgateway/pull/2205) in flight
+Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 9★ · [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged · [Amika](https://github.com/gofixpoint/amika/pull/262) in flight
 
 #### Building
 
@@ -39,6 +39,8 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
 - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/github/stars/agentgateway/agentgateway?style=flat&color=gold)](https://github.com/agentgateway/agentgateway)
   - docs: EP-2141 governance metadata for gateway traces ([#2205](https://github.com/agentgateway/agentgateway/pull/2205))
   - fix(mcp): route client JSON-RPC responses for server-initiated requests ([#2207](https://github.com/agentgateway/agentgateway/pull/2207))
+- **[Amika](https://github.com/gofixpoint/amika)** [![GitHub stars](https://img.shields.io/github/stars/gofixpoint/amika?style=flat&color=gold)](https://github.com/gofixpoint/amika)
+  - feat: stream agent stdout/stderr in real time (closes #156) ([#262](https://github.com/gofixpoint/amika/pull/262))
 
 #### Writing
 
