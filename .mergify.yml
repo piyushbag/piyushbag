@@ -1,0 +1,47 @@
+# Mergify — auto-merge when Cursor Bugbot passes.
+# Install app: https://github.com/apps/mergify (enable on piyushbag/piyushbag)
+# Bugbot: https://cursor.com/dashboard (enable on piyushbag/piyushbag)
+#
+# Flow: PR opened → Cursor Bugbot → Mergify squash-merges when green.
+# Covers manual PRs (author: piyushbag) and daily README bot PRs.
+
+merge_protections_settings:
+  reporting_method: check-runs
+  post_comment: true
+  auto_merge_conditions:
+    - or:
+        - author = piyushbag
+        - author = github-actions[bot]
+
+merge_protections:
+  - name: profile-bugbot
+    if:
+      - base = main
+    success_conditions:
+      - check-success-or-neutral = Cursor Bugbot
+
+pull_request_rules:
+  - name: auto-merge when Bugbot passes (piyushbag)
+    conditions:
+      - base = main
+      - author = piyushbag
+      - -closed
+      - check-success-or-neutral = Cursor Bugbot
+    actions:
+      merge:
+        method: squash
+
+  - name: auto-merge daily README bot PRs
+    conditions:
+      - base = main
+      - author = github-actions[bot]
+      - head ~= ^bot/profile-readme-daily
+      - -closed
+      - check-success-or-neutral = Cursor Bugbot
+    actions:
+      merge:
+        method: squash
+        commit_message_template: |
+          {{ title }} (#{{ number }})
+
+          {{ body }}

@@ -2,7 +2,7 @@
 
 [![Blog](https://img.shields.io/badge/Blog-piyushbag.com-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://www.piyushbag.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushbag-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/piyushbag) [![X @piyushbagitall](https://img.shields.io/badge/X-@piyushbagitall-000?style=flat&logo=x)](https://x.com/piyushbagitall)
 
-Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 8★ [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged [#976](https://github.com/modelcontextprotocol/go-sdk/issues/976) · [AGENTS.md](https://github.com/agentsmd/agents.md/pull/203) compat
+Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 9★ [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged [#976](https://github.com/modelcontextprotocol/go-sdk/issues/976) · [AGENTS.md](https://github.com/agentsmd/agents.md/pull/203) compat
 
 #### Building
 

@@ -1,0 +1,52 @@
+name: Daily profile README refresh
+
+on:
+  schedule:
+    # 09:00 America/Los_Angeles (PDT, UTC-7)
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Setup GitHub CLI
+        uses: cli/cli@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Refresh README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_profile_readme.py
+
+      - name: Open PR if changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(profile): daily README refresh"
+          branch: bot/profile-readme-daily
+          delete-branch: true
+          title: "Daily profile README refresh"
+          body: |
+            Automated daily refresh from `.github/workflows/profile-readme-daily.yml`.
+
+            Updates:
+            - `*Last updated*` date
+            - `awesome-pcb-workflow` star count in tagline
+            - `merged` labels on tracked pull requests
+
+            Mergify auto-merges when Cursor Bugbot passes.
