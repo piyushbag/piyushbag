@@ -1,5 +1,31 @@
-# Piyush Bag
+### Hey, I'm Piyush Bag
 
-<!---
-piyushbag/piyushbag is a special repository because its README.md appears on your GitHub profile.
---->
+[![Blog](https://img.shields.io/badge/Blog-piyushbag.com-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://www.piyushbag.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushbag-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/piyushbag) [![X @piyushbagitall](https://img.shields.io/badge/X-@piyushbagitall-000?style=flat&logo=x)](https://x.com/piyushbagitall)
+
+Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 8★ [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged [#976](https://github.com/modelcontextprotocol/go-sdk/issues/976) · [AGENTS.md](https://github.com/agentsmd/agents.md/pull/203) compat
+
+#### Building
+
+- **[awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow)** [![GitHub stars](https://img.shields.io/github/stars/piyushbag/awesome-pcb-workflow?style=flat&color=gold)](https://github.com/piyushbag/awesome-pcb-workflow) - Curated PCB design automation stack: AI-assisted EDA, DFM, fab CI/CD, hardware testing agents. KiCad and OrCAD compatible.
+- **[awesome-dvt-automation](https://github.com/piyushbag/awesome-dvt-automation)** [![GitHub stars](https://img.shields.io/github/stars/piyushbag/awesome-dvt-automation?style=flat&color=gold)](https://github.com/piyushbag/awesome-dvt-automation) - Post-silicon validation tool landscape: 81 tools across 12 pipeline stages.
+
+#### Contributing to
+
+- **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/go-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/go-sdk) - jsonrpc2 decode when `method` key is present but empty ([#1000](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged, Fixes [#976](https://github.com/modelcontextprotocol/go-sdk/issues/976)), StreamableHTTPHandler.Close for graceful shutdown ([#1029](https://github.com/modelcontextprotocol/go-sdk/pull/1029), [#440](https://github.com/modelcontextprotocol/go-sdk/issues/440)), ListResourcesHandler for dynamic resources/list ([#1030](https://github.com/modelcontextprotocol/go-sdk/pull/1030)), community PR reviews ([#1031](https://github.com/modelcontextprotocol/go-sdk/pull/1031), [#1027](https://github.com/modelcontextprotocol/go-sdk/pull/1027))
+- **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/github/stars/agentsmd/agents.md?style=flat&color=gold)](https://github.com/agentsmd/agents.md) - OpenHands compatibility listing, daily-seeded agent order ([#203](https://github.com/agentsmd/agents.md/pull/203), Fixes [#7](https://github.com/agentsmd/agents.md/issues/7) [#26](https://github.com/agentsmd/agents.md/issues/26))
+- **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/python-sdk) - strip trailing slashes from OAuth metadata URLs ([#3013](https://github.com/modelcontextprotocol/python-sdk/pull/3013))
+- **[MCP Registry](https://github.com/modelcontextprotocol/registry)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=flat&color=gold)](https://github.com/modelcontextprotocol/registry) - return 499 on client cancel for get-server endpoints ([#1401](https://github.com/modelcontextprotocol/registry/pull/1401))
+- **[MCP Servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat&color=gold)](https://github.com/modelcontextprotocol/servers) - tool annotations for fetch tool ([#4428](https://github.com/modelcontextprotocol/servers/pull/4428))
+- **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/inspector?style=flat&color=gold)](https://github.com/modelcontextprotocol/inspector) - link e2e PR summary to Playwright artifact download ([#1539](https://github.com/modelcontextprotocol/inspector/pull/1539), Fixes [#1259](https://github.com/modelcontextprotocol/inspector/issues/1259))
+- **[MCP Specification](https://github.com/modelcontextprotocol/modelcontextprotocol)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol?style=flat&color=gold)](https://github.com/modelcontextprotocol/modelcontextprotocol) - simplify Mcp-Param client note for missing inputSchema ([#2983](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983), Fixes [#2974](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2974))
+- **[mcp-use](https://github.com/mcp-use/mcp-use)** [![GitHub stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&color=gold)](https://github.com/mcp-use/mcp-use) - isolate useMcp connection lifecycle in React ([#1708](https://github.com/mcp-use/mcp-use/pull/1708))
+- **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/github/stars/agentgateway/agentgateway?style=flat&color=gold)](https://github.com/agentgateway/agentgateway) - route client JSON-RPC responses for server-initiated MCP requests, EP-2141 governance metadata for gateway traces
+- **[Goose](https://github.com/block/goose)** [![GitHub stars](https://img.shields.io/github/stars/block/goose?style=flat&color=gold)](https://github.com/block/goose) - honor GOOSE_CONTEXT_LIMIT for custom model context display in Desktop ([#10058](https://github.com/block/goose/issues/10058))
+
+#### Writing
+
+Technical posts on hardware test automation, MCP, and agentic engineering: [piyushbag.com/blog](https://www.piyushbag.com/blog)
+
+*Last updated: 2026-06-29*
+
+<!-- piyushbag/piyushbag is a special repository: README.md appears on your GitHub profile. -->
