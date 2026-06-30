@@ -108,6 +108,13 @@ def format_pr(pr: dict) -> str:
     return f"{title} ([#{num}]({url}){suffix})"
 
 
+def org_display_name(config: dict, org: str) -> str:
+    names = config.get("org_display_names") or {}
+    if org in names:
+        return names[org]
+    return org
+
+
 def build_contributing_lines(config: dict, prs: list[dict]) -> list[str]:
     by_repo: dict[str, list[dict]] = defaultdict(list)
     for pr in prs:
@@ -115,16 +122,28 @@ def build_contributing_lines(config: dict, prs: list[dict]) -> list[str]:
         if should_include_repo(config, repo) and pr_recent_enough(config, pr):
             by_repo[repo].append(pr)
 
+    by_org: dict[str, list[str]] = defaultdict(list)
+    for repo, repo_prs in by_repo.items():
+        org = repo.split("/", 1)[0]
+        by_org[org].append(repo)
+
+    def org_sort_key(org: str) -> tuple[int, str]:
+        repos = by_org[org]
+        total_stars = sum(repo_stars(r) for r in repos)
+        return (-total_stars, org.lower())
+
     lines: list[str] = []
-    for repo in sorted(by_repo, key=lambda r: (-repo_stars(r), r.lower())):
-        name = display_name(config, repo)
-        repo_prs = sorted(by_repo[repo], key=lambda p: p["number"])
-        lines.append(
-            f"- **[{name}](https://github.com/{repo})** "
-            f"[![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat&color=gold)](https://github.com/{repo})"
-        )
-        for pr in repo_prs:
-            lines.append(f"  - {format_pr(pr)}")
+    for org in sorted(by_org, key=org_sort_key):
+        org_label = org_display_name(config, org)
+        lines.append(f"- **[{org_label}](https://github.com/{org})**")
+        for repo in sorted(by_org[org], key=lambda r: (-repo_stars(r), r.lower())):
+            name = display_name(config, repo)
+            lines.append(
+                f"  - **[{name}](https://github.com/{repo})** "
+                f"[![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat&color=gold)](https://github.com/{repo})"
+            )
+            for pr in sorted(by_repo[repo], key=lambda p: p["number"]):
+                lines.append(f"    - {format_pr(pr)}")
     return lines
 
 
@@ -235,7 +254,9 @@ def main() -> int:
         return 0
 
     README_PATH.write_text(readme, encoding="utf-8")
-    print(f"README.md updated ({len(prs)} PRs scanned, {len(build_contributing_lines(config, prs))} upstream repos)")
+    org_count = len({r.split("/", 1)[0] for r in {p["repository"]["nameWithOwner"] for p in prs if should_include_repo(config, p["repository"]["nameWithOwner"]) and pr_recent_enough(config, p)}})
+    repo_count = len([r for r in {p["repository"]["nameWithOwner"] for p in prs if should_include_repo(config, p["repository"]["nameWithOwner"]) and pr_recent_enough(config, p)}])
+    print(f"README.md updated ({len(prs)} PRs scanned, {org_count} orgs, {repo_count} repos)")
     return 0
 
 

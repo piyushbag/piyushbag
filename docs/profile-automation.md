@@ -21,7 +21,7 @@ Your GitHub profile README is **generated**, not hand-edited. Two cloud layers k
 
 1. Search up to 100 PRs authored by `piyushbag` (sorted by recently updated).
 2. **Exclude** PRs to your own repos (`piyushbag/*`) — those belong in **Building**, not upstream contributions.
-3. Group remaining PRs by upstream repo; each repo is one top-level bullet, **each PR on its own sub-indented line** (`  - title ([#N](url) merged)`).
+3. Group by **GitHub org** → **repo** → **PR** (three levels: org bullet, nested repo + star badge, nested PR lines with 4-space indent).
 
 ## Manual run
 

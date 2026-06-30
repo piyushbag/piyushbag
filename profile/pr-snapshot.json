@@ -3,6 +3,39 @@
   "author": "piyushbag",
   "pull_requests": [
     {
+      "number": 2983,
+      "repository": {
+        "name": "modelcontextprotocol",
+        "nameWithOwner": "modelcontextprotocol/modelcontextprotocol"
+      },
+      "state": "closed",
+      "title": "docs: simplify Mcp-Param client note for missing inputSchema",
+      "updatedAt": "2026-06-30T11:04:45Z",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983"
+    },
+    {
+      "number": 262,
+      "repository": {
+        "name": "amika",
+        "nameWithOwner": "gofixpoint/amika"
+      },
+      "state": "open",
+      "title": "feat: stream agent stdout/stderr in real time (closes #156)",
+      "updatedAt": "2026-06-30T07:55:37Z",
+      "url": "https://github.com/gofixpoint/amika/pull/262"
+    },
+    {
+      "number": 8,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "Contributing: one PR per sub-indented line",
+      "updatedAt": "2026-06-30T07:42:17Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/8"
+    },
+    {
       "number": 6,
       "repository": {
         "name": "piyushbag",
@@ -133,17 +166,6 @@
       "title": "feat(fetch): add tool annotations for fetch tool",
       "updatedAt": "2026-06-28T10:07:28Z",
       "url": "https://github.com/modelcontextprotocol/servers/pull/4428"
-    },
-    {
-      "number": 2983,
-      "repository": {
-        "name": "modelcontextprotocol",
-        "nameWithOwner": "modelcontextprotocol/modelcontextprotocol"
-      },
-      "state": "open",
-      "title": "docs: simplify Mcp-Param client note for missing inputSchema",
-      "updatedAt": "2026-06-28T10:06:30Z",
-      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983"
     },
     {
       "number": 1539,

@@ -17,6 +17,13 @@ contributing_exclude_repos:
 # Ignore upstream PRs last updated before this date (ISO).
 contributing_since: "2025-01-01"
 
+org_display_names:
+  modelcontextprotocol: Model Context Protocol
+  agentsmd: agentsmd
+  aaif-goose: Goose (AAIF)
+  mcp-use: mcp-use
+  agentgateway: agentgateway
+
 display_names:
   modelcontextprotocol/go-sdk: MCP Go SDK
   modelcontextprotocol/python-sdk: MCP Python SDK
