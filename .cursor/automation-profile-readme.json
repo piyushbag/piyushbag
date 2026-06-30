@@ -1,0 +1,28 @@
+{
+  "name": "Profile README daily refresh",
+  "description": "Cloud agent: regenerate piyushbag profile README from all upstream PRs daily and open a PR when changed.",
+  "workflow": {
+    "triggers": [
+      {
+        "cron": {
+          "cron": "0 16 * * *"
+        }
+      }
+    ],
+    "actions": [],
+    "prompts": [
+      {
+        "prompt": "You maintain the GitHub profile repo piyushbag/piyushbag.\n\n## Task\nRegenerate README.md from live pull requests (upstream contributions only).\n\n## Steps\n1. Check out piyushbag/piyushbag on main.\n2. Run: pip install -r profile/requirements.txt && python3 scripts/generate_profile_readme.py (requires gh authenticated).\n3. Read docs/profile-automation.md if anything fails.\n4. If README.md or profile/pr-snapshot.json changed, create branch profile-sync-YYYY-MM-DD, commit with author Piyush Jagadish Bag <piyushbag4@gmail.com> (use commit-tree; no Co-authored-by trailers), push, open PR \"Daily profile README refresh\".\n5. Do not edit README by hand; adjust profile/config.yaml for display names or Building repos only.\n6. Never mention Cursor, AI, agents, or assistants in public GitHub text.\n\n## Pass\nPR opened or no diff. Mergify merges bot/human PRs per .mergify.yml."
+      }
+    ],
+    "gitConfig": {
+      "repo": "piyushbag/piyushbag",
+      "branch": "main"
+    },
+    "model": "",
+    "agentOptions": {
+      "skipInstall": false
+    },
+    "memoryEnabled": true
+  }
+}
