@@ -2,7 +2,7 @@
 
 [![Blog](https://img.shields.io/badge/Blog-piyushbag.com-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://www.piyushbag.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushbag-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/piyushbag) [![X @piyushbagitall](https://img.shields.io/badge/X-@piyushbagitall-000?style=flat&logo=x)](https://x.com/piyushbagitall)
 
-Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 9★ · [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged · [agentgateway](https://github.com/agentgateway/agentgateway/pull/2205) in flight
+Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 9★ · [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged · [Amika](https://github.com/gofixpoint/amika/pull/262) in flight
 
 #### Building
 
@@ -11,34 +11,42 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
 
 #### Contributing to
 
-- **[MCP Servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat&color=gold)](https://github.com/modelcontextprotocol/servers)
-  - feat(fetch): add tool annotations for fetch tool ([#4428](https://github.com/modelcontextprotocol/servers/pull/4428))
-- **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/github/stars/aaif-goose/goose?style=flat&color=gold)](https://github.com/aaif-goose/goose)
-  - fix(desktop): honor GOOSE_CONTEXT_LIMIT for custom model context display ([#10070](https://github.com/aaif-goose/goose/pull/10070))
-- **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/python-sdk)
-  - fix(auth): strip trailing slashes from OAuth metadata URLs ([#3013](https://github.com/modelcontextprotocol/python-sdk/pull/3013))
-- **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/github/stars/agentsmd/agents.md?style=flat&color=gold)](https://github.com/agentsmd/agents.md)
-  - Add OpenHands to compatibility section ([#202](https://github.com/agentsmd/agents.md/pull/202))
-  - feat(compat): OpenHands listing and daily-seeded agent order ([#203](https://github.com/agentsmd/agents.md/pull/203))
-- **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/inspector?style=flat&color=gold)](https://github.com/modelcontextprotocol/inspector)
-  - fix(ci): link e2e PR summary to Playwright artifact download (#1259) ([#1539](https://github.com/modelcontextprotocol/inspector/pull/1539))
-- **[mcp-use](https://github.com/mcp-use/mcp-use)** [![GitHub stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&color=gold)](https://github.com/mcp-use/mcp-use)
-  - fix(react): isolate useMcp connection lifecycle (Option A) ([#1708](https://github.com/mcp-use/mcp-use/pull/1708))
-- **[MCP Specification](https://github.com/modelcontextprotocol/modelcontextprotocol)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol?style=flat&color=gold)](https://github.com/modelcontextprotocol/modelcontextprotocol)
-  - docs: simplify Mcp-Param client note for missing inputSchema ([#2983](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983))
-- **[MCP Registry](https://github.com/modelcontextprotocol/registry)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=flat&color=gold)](https://github.com/modelcontextprotocol/registry)
-  - fix(handlers): return 499 on client cancel for get-server endpoints ([#1401](https://github.com/modelcontextprotocol/registry/pull/1401))
-- **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/go-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/go-sdk)
-  - fix(jsonrpc2): decode requests when method key is present ([#999](https://github.com/modelcontextprotocol/go-sdk/pull/999))
-  - fix(jsonrpc2): decode requests when method key is present ([#1000](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged)
-  - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1001](https://github.com/modelcontextprotocol/go-sdk/pull/1001))
-  - mcp: add ListResourcesHandler for dynamic resources/list ([#1002](https://github.com/modelcontextprotocol/go-sdk/pull/1002))
-  - mcp: deprecate roots, sampling, and logging (SEP-2577) ([#1013](https://github.com/modelcontextprotocol/go-sdk/pull/1013))
-  - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1029](https://github.com/modelcontextprotocol/go-sdk/pull/1029))
-  - mcp: add ListResourcesHandler for dynamic resources/list ([#1030](https://github.com/modelcontextprotocol/go-sdk/pull/1030))
-- **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/github/stars/agentgateway/agentgateway?style=flat&color=gold)](https://github.com/agentgateway/agentgateway)
-  - docs: EP-2141 governance metadata for gateway traces ([#2205](https://github.com/agentgateway/agentgateway/pull/2205))
-  - fix(mcp): route client JSON-RPC responses for server-initiated requests ([#2207](https://github.com/agentgateway/agentgateway/pull/2207))
+- **[Model Context Protocol](https://github.com/modelcontextprotocol)**
+  - **[MCP Servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat&color=gold)](https://github.com/modelcontextprotocol/servers)
+    - feat(fetch): add tool annotations for fetch tool ([#4428](https://github.com/modelcontextprotocol/servers/pull/4428))
+  - **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/python-sdk)
+    - fix(auth): strip trailing slashes from OAuth metadata URLs ([#3013](https://github.com/modelcontextprotocol/python-sdk/pull/3013))
+  - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/inspector?style=flat&color=gold)](https://github.com/modelcontextprotocol/inspector)
+    - fix(ci): link e2e PR summary to Playwright artifact download (#1259) ([#1539](https://github.com/modelcontextprotocol/inspector/pull/1539))
+  - **[MCP Specification](https://github.com/modelcontextprotocol/modelcontextprotocol)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol?style=flat&color=gold)](https://github.com/modelcontextprotocol/modelcontextprotocol)
+    - docs: simplify Mcp-Param client note for missing inputSchema ([#2983](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983))
+  - **[MCP Registry](https://github.com/modelcontextprotocol/registry)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/registry?style=flat&color=gold)](https://github.com/modelcontextprotocol/registry)
+    - fix(handlers): return 499 on client cancel for get-server endpoints ([#1401](https://github.com/modelcontextprotocol/registry/pull/1401))
+  - **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/go-sdk?style=flat&color=gold)](https://github.com/modelcontextprotocol/go-sdk)
+    - fix(jsonrpc2): decode requests when method key is present ([#999](https://github.com/modelcontextprotocol/go-sdk/pull/999))
+    - fix(jsonrpc2): decode requests when method key is present ([#1000](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged)
+    - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1001](https://github.com/modelcontextprotocol/go-sdk/pull/1001))
+    - mcp: add ListResourcesHandler for dynamic resources/list ([#1002](https://github.com/modelcontextprotocol/go-sdk/pull/1002))
+    - mcp: deprecate roots, sampling, and logging (SEP-2577) ([#1013](https://github.com/modelcontextprotocol/go-sdk/pull/1013))
+    - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1029](https://github.com/modelcontextprotocol/go-sdk/pull/1029))
+    - mcp: add ListResourcesHandler for dynamic resources/list ([#1030](https://github.com/modelcontextprotocol/go-sdk/pull/1030))
+- **[Goose (AAIF)](https://github.com/aaif-goose)**
+  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/github/stars/aaif-goose/goose?style=flat&color=gold)](https://github.com/aaif-goose/goose)
+    - fix(desktop): honor GOOSE_CONTEXT_LIMIT for custom model context display ([#10070](https://github.com/aaif-goose/goose/pull/10070))
+- **[agentsmd](https://github.com/agentsmd)**
+  - **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/github/stars/agentsmd/agents.md?style=flat&color=gold)](https://github.com/agentsmd/agents.md)
+    - Add OpenHands to compatibility section ([#202](https://github.com/agentsmd/agents.md/pull/202))
+    - feat(compat): OpenHands listing and daily-seeded agent order ([#203](https://github.com/agentsmd/agents.md/pull/203))
+- **[mcp-use](https://github.com/mcp-use)**
+  - **[mcp-use](https://github.com/mcp-use/mcp-use)** [![GitHub stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat&color=gold)](https://github.com/mcp-use/mcp-use)
+    - fix(react): isolate useMcp connection lifecycle (Option A) ([#1708](https://github.com/mcp-use/mcp-use/pull/1708))
+- **[agentgateway](https://github.com/agentgateway)**
+  - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/github/stars/agentgateway/agentgateway?style=flat&color=gold)](https://github.com/agentgateway/agentgateway)
+    - docs: EP-2141 governance metadata for gateway traces ([#2205](https://github.com/agentgateway/agentgateway/pull/2205))
+    - fix(mcp): route client JSON-RPC responses for server-initiated requests ([#2207](https://github.com/agentgateway/agentgateway/pull/2207))
+- **[gofixpoint](https://github.com/gofixpoint)**
+  - **[Amika](https://github.com/gofixpoint/amika)** [![GitHub stars](https://img.shields.io/github/stars/gofixpoint/amika?style=flat&color=gold)](https://github.com/gofixpoint/amika)
+    - feat: stream agent stdout/stderr in real time (closes #156) ([#262](https://github.com/gofixpoint/amika/pull/262))
 
 #### Writing
 
