@@ -118,14 +118,13 @@ def build_contributing_lines(config: dict, prs: list[dict]) -> list[str]:
     lines: list[str] = []
     for repo in sorted(by_repo, key=lambda r: (-repo_stars(r), r.lower())):
         name = display_name(config, repo)
-        stars = repo_stars(repo)
         repo_prs = sorted(by_repo[repo], key=lambda p: p["number"])
-        pr_text = ", ".join(format_pr(p) for p in repo_prs)
         lines.append(
             f"- **[{name}](https://github.com/{repo})** "
-            f"[![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat&color=gold)](https://github.com/{repo}) "
-            f"- {pr_text}"
+            f"[![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat&color=gold)](https://github.com/{repo})"
         )
+        for pr in repo_prs:
+            lines.append(f"  - {format_pr(pr)}")
     return lines
 
 
