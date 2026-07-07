@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-07-06",
+  "generated_at": "2026-07-07",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 19,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "fix(ci): merge daily README bot PR in same workflow job",
+      "updatedAt": "2026-07-07T17:43:50Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/19"
+    },
+    {
+      "number": 18,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "fix(ci): auto-merge daily README bot PRs",
+      "updatedAt": "2026-07-07T17:42:10Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/18"
+    },
+    {
+      "number": 16,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "fix(mergify): auto-merge daily bot PRs via merge protection",
+      "updatedAt": "2026-07-07T17:37:15Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/16"
+    },
     {
       "number": 10165,
       "repository": {
