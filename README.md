@@ -31,11 +31,11 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
     - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1029](https://github.com/modelcontextprotocol/go-sdk/pull/1029))
     - mcp: add ListResourcesHandler for dynamic resources/list ([#1030](https://github.com/modelcontextprotocol/go-sdk/pull/1030))
 - **[Goose (AAIF)](https://github.com/aaif-goose)**
-  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/badge/stars-50773-gold?style=flat&logo=github&logoColor=white)](https://github.com/aaif-goose/goose/stargazers)
+  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/badge/stars-50774-gold?style=flat&logo=github&logoColor=white)](https://github.com/aaif-goose/goose/stargazers)
     - fix(desktop): honor GOOSE_CONTEXT_LIMIT for custom model context display ([#10070](https://github.com/aaif-goose/goose/pull/10070))
     - fix(server): return effective context limit from /model-info ([#10165](https://github.com/aaif-goose/goose/pull/10165) merged)
 - **[agentsmd](https://github.com/agentsmd)**
-  - **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/badge/stars-22858-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentsmd/agents.md/stargazers)
+  - **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/badge/stars-22859-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentsmd/agents.md/stargazers)
     - Add OpenHands to compatibility section ([#202](https://github.com/agentsmd/agents.md/pull/202))
     - feat(compat): OpenHands listing and daily-seeded agent order ([#203](https://github.com/agentsmd/agents.md/pull/203))
 - **[mcp-use](https://github.com/mcp-use)**
