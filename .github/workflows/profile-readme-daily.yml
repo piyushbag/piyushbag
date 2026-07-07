@@ -46,4 +46,4 @@ jobs:
             - Regenerates **Contributing to** from all upstream PRs (`gh search prs --author=piyushbag`)
             - Refreshes `*Last updated*` and `profile/pr-snapshot.json`
 
-            Mergify auto-merges when Cursor Bugbot passes.
+            Mergify auto-merges bot PRs on `bot/profile-readme-daily` (no Bugbot required).
