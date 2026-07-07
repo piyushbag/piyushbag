@@ -6,7 +6,7 @@ Your GitHub profile README is **generated**, not hand-edited. Two cloud layers k
 
 | Layer | Runs on | Mac 24/7? | Purpose |
 |-------|---------|-----------|---------|
-| **GitHub Actions** | GitHub cloud | No | Daily PR sync at 09:00 PT; bot PR auto-merges via `profile-readme-automerge.yml` |
+| **GitHub Actions** | GitHub cloud | No | Daily PR sync at 09:00 PT; squash-merge in same job |
 | **Cursor Automation** | Cursor cloud | No | Same generator; optional agent pass for config/README polish |
 
 ## Source of truth
@@ -30,8 +30,10 @@ Star badges use static counts from `gh` at generate time (`badge/stars-N-gold`).
 Daily bot PRs on `bot/profile-readme-daily` are squash-merged in the same
 `profile-readme-daily.yml` job (GitHub does not chain `GITHUB_TOKEN` workflows).
 
-Mergify still auto-merges **your** manual PRs when Cursor Bugbot passes (`.mergify.yml`).
+Manual PRs use **Mergify Merge Protections** (enabled on this repo): the
+`Mergify Merge Protections` check requires Cursor Bugbot, then auto-merges when green.
 
+## Manual run
 
 ```bash
 pip install -r profile/requirements.txt

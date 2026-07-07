@@ -1,7 +1,20 @@
-# Mergify — auto-merge when Cursor Bugbot passes (manual PRs).
-# Requires Mergify app on piyushbag/piyushbag.
-# Daily README bot PRs merge via .github/workflows/profile-readme-automerge.yml
-# (github-actions[bot] PRs do not get Bugbot; Mergify merge queue/protections off).
+# Mergify — Merge Protections for manual PRs (Cursor Bugbot gate).
+# Product enabled via Mergify API: merge_protections + workflow_automation.
+# Daily README bot PRs merge in profile-readme-daily.yml (same job, no Mergify).
+
+merge_protections_settings:
+  reporting_method: check-runs
+  post_comment: true
+  auto_merge_conditions:
+    - author = piyushbag
+
+merge_protections:
+  - name: profile-bugbot
+    if:
+      - base = main
+      - author = piyushbag
+    success_conditions:
+      - check-success-or-neutral = Cursor Bugbot
 
 pull_request_rules:
   - name: auto-merge when Bugbot passes (piyushbag)
@@ -10,18 +23,6 @@ pull_request_rules:
       - author = piyushbag
       - -closed
       - check-success-or-neutral = Cursor Bugbot
-    actions:
-      merge:
-        method: squash
-
-  - name: auto-merge daily README bot PRs
-    conditions:
-      - base = main
-      - author = github-actions[bot]
-      - head = bot/profile-readme-daily
-      - -closed
-      - -conflict
-      - -draft
     actions:
       merge:
         method: squash
