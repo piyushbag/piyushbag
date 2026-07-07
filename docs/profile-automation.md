@@ -27,7 +27,8 @@ Star badges use static counts from `gh` at generate time (`badge/stars-N-gold`).
 
 ## Auto-merge
 
-Daily bot PRs on `bot/profile-readme-daily` are squash-merged by `.github/workflows/profile-readme-automerge.yml` when opened or updated (no Bugbot, no Mac).
+Daily bot PRs on `bot/profile-readme-daily` are squash-merged in the same
+`profile-readme-daily.yml` job (GitHub does not chain `GITHUB_TOKEN` workflows).
 
 Mergify still auto-merges **your** manual PRs when Cursor Bugbot passes (`.mergify.yml`).
 
