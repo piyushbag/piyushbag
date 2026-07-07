@@ -32,6 +32,7 @@ jobs:
         run: python3 scripts/generate_profile_readme.py
 
       - name: Open PR if changed
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -46,4 +47,14 @@ jobs:
             - Regenerates **Contributing to** from all upstream PRs (`gh search prs --author=piyushbag`)
             - Refreshes `*Last updated*` and `profile/pr-snapshot.json`
 
-            Mergify auto-merges bot PRs on `bot/profile-readme-daily` (no Bugbot required).
+            Squash-merged by this workflow in the next step (same job).
+
+      - name: Squash-merge daily README PR
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge "${{ steps.cpr.outputs.pull-request-number }}" \
+            --repo "${{ github.repository }}" \
+            --squash \
+            --delete-branch
