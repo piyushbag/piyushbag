@@ -6,7 +6,7 @@ Your GitHub profile README is **generated**, not hand-edited. Two cloud layers k
 
 | Layer | Runs on | Mac 24/7? | Purpose |
 |-------|---------|-----------|---------|
-| **GitHub Actions** | GitHub cloud | No | Daily PR sync at 09:00 PT; opens bot PR; Mergify merges |
+| **GitHub Actions** | GitHub cloud | No | Daily PR sync at 09:00 PT; bot PR auto-merges via `profile-readme-automerge.yml` |
 | **Cursor Automation** | Cursor cloud | No | Same generator; optional agent pass for config/README polish |
 
 ## Source of truth
@@ -25,7 +25,12 @@ Your GitHub profile README is **generated**, not hand-edited. Two cloud layers k
 
 Star badges use static counts from `gh` at generate time (`badge/stars-N-gold`). Avoid dynamic `github/stars` shields URLs; they often render as `invalid` on profile READMEs.
 
-## Manual run
+## Auto-merge
+
+Daily bot PRs on `bot/profile-readme-daily` are squash-merged by `.github/workflows/profile-readme-automerge.yml` when opened or updated (no Bugbot, no Mac).
+
+Mergify still auto-merges **your** manual PRs when Cursor Bugbot passes (`.mergify.yml`).
+
 
 ```bash
 pip install -r profile/requirements.txt
