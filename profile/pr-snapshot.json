@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02",
+  "generated_at": "2026-07-06",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -8,10 +8,21 @@
         "name": "goose",
         "nameWithOwner": "aaif-goose/goose"
       },
-      "state": "open",
+      "state": "merged",
       "title": "fix(server): return effective context limit from /model-info",
-      "updatedAt": "2026-07-01T17:55:32Z",
+      "updatedAt": "2026-07-06T16:00:08Z",
       "url": "https://github.com/aaif-goose/goose/pull/10165"
+    },
+    {
+      "number": 2205,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "closed",
+      "title": "docs: EP-2141 governance metadata for gateway traces",
+      "updatedAt": "2026-07-03T02:06:57Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2205"
     },
     {
       "number": 14,
@@ -166,17 +177,6 @@
       "title": "Rewrite profile README: Building + Contributing sections",
       "updatedAt": "2026-06-30T06:11:29Z",
       "url": "https://github.com/piyushbag/piyushbag/pull/1"
-    },
-    {
-      "number": 2205,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "docs: EP-2141 governance metadata for gateway traces",
-      "updatedAt": "2026-06-29T14:24:40Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2205"
     },
     {
       "number": 203,
