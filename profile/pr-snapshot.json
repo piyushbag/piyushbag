@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-07-07",
+  "generated_at": "2026-07-08",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 21,
+      "repository": {
+        "name": "piyushbag",
+        "nameWithOwner": "piyushbag/piyushbag"
+      },
+      "state": "merged",
+      "title": "infra(mergify): enable merge protections for manual PRs",
+      "updatedAt": "2026-07-07T18:04:09Z",
+      "url": "https://github.com/piyushbag/piyushbag/pull/21"
+    },
     {
       "number": 19,
       "repository": {
@@ -388,17 +399,6 @@
       "url": "https://github.com/modelcontextprotocol/go-sdk/pull/999"
     },
     {
-      "number": 2,
-      "repository": {
-        "name": "awesome-dvt-automation",
-        "nameWithOwner": "piyushbag/awesome-dvt-automation"
-      },
-      "state": "open",
-      "title": "Monthly automation: discover DVT tools and open PRs",
-      "updatedAt": "2026-06-08T08:15:56Z",
-      "url": "https://github.com/piyushbag/awesome-dvt-automation/pull/2"
-    },
-    {
       "number": 4,
       "repository": {
         "name": "awesome-dvt-automation",
@@ -408,6 +408,17 @@
       "title": "Add social launch pack and Dev.to publish script",
       "updatedAt": "2026-06-08T08:19:06Z",
       "url": "https://github.com/piyushbag/awesome-dvt-automation/pull/4"
+    },
+    {
+      "number": 2,
+      "repository": {
+        "name": "awesome-dvt-automation",
+        "nameWithOwner": "piyushbag/awesome-dvt-automation"
+      },
+      "state": "open",
+      "title": "Monthly automation: discover DVT tools and open PRs",
+      "updatedAt": "2026-06-08T08:15:56Z",
+      "url": "https://github.com/piyushbag/awesome-dvt-automation/pull/2"
     },
     {
       "number": 1,
