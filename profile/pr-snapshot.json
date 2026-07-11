@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-07-10",
+  "generated_at": "2026-07-11",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 3013,
+      "repository": {
+        "name": "python-sdk",
+        "nameWithOwner": "modelcontextprotocol/python-sdk"
+      },
+      "state": "open",
+      "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
+      "updatedAt": "2026-07-11T11:54:56Z",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
+    },
+    {
+      "number": 1029,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "open",
+      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
+      "updatedAt": "2026-07-11T11:52:35Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
+    },
+    {
+      "number": 1401,
+      "repository": {
+        "name": "registry",
+        "nameWithOwner": "modelcontextprotocol/registry"
+      },
+      "state": "open",
+      "title": "fix(handlers): return 499 on client cancel for get-server endpoints",
+      "updatedAt": "2026-07-11T11:48:20Z",
+      "url": "https://github.com/modelcontextprotocol/registry/pull/1401"
+    },
+    {
+      "number": 2207,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
+      "updatedAt": "2026-07-11T11:48:19Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
+    },
     {
       "number": 1030,
       "repository": {
@@ -245,39 +289,6 @@
       "url": "https://github.com/agentsmd/agents.md/pull/203"
     },
     {
-      "number": 2207,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
-      "updatedAt": "2026-06-28T10:34:09Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
-    },
-    {
-      "number": 3013,
-      "repository": {
-        "name": "python-sdk",
-        "nameWithOwner": "modelcontextprotocol/python-sdk"
-      },
-      "state": "open",
-      "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
-      "updatedAt": "2026-06-28T10:25:24Z",
-      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
-    },
-    {
-      "number": 1401,
-      "repository": {
-        "name": "registry",
-        "nameWithOwner": "modelcontextprotocol/registry"
-      },
-      "state": "open",
-      "title": "fix(handlers): return 499 on client cancel for get-server endpoints",
-      "updatedAt": "2026-06-28T10:11:14Z",
-      "url": "https://github.com/modelcontextprotocol/registry/pull/1401"
-    },
-    {
       "number": 4428,
       "repository": {
         "name": "servers",
@@ -298,17 +309,6 @@
       "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
       "updatedAt": "2026-06-28T10:05:54Z",
       "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
-    },
-    {
-      "number": 1029,
-      "repository": {
-        "name": "go-sdk",
-        "nameWithOwner": "modelcontextprotocol/go-sdk"
-      },
-      "state": "open",
-      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
-      "updatedAt": "2026-06-27T18:14:26Z",
-      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
     },
     {
       "number": 1,
