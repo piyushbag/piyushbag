@@ -1,7 +1,62 @@
 {
-  "generated_at": "2026-07-14",
+  "generated_at": "2026-07-15",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 10488,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "fix(acp): keep loadSession usable when recipe hydration fails",
+      "updatedAt": "2026-07-15T14:45:05Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10488"
+    },
+    {
+      "number": 2539,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(llm): rewrite Vertex rawPredict for any publisher",
+      "updatedAt": "2026-07-15T13:35:29Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2539"
+    },
+    {
+      "number": 2538,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(mcp): multiplex opaque resource URIs",
+      "updatedAt": "2026-07-15T13:09:40Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2538"
+    },
+    {
+      "number": 1708,
+      "repository": {
+        "name": "mcp-use",
+        "nameWithOwner": "mcp-use/mcp-use"
+      },
+      "state": "open",
+      "title": "fix(react): isolate useMcp connection lifecycle (Option A)",
+      "updatedAt": "2026-07-14T17:49:41Z",
+      "url": "https://github.com/mcp-use/mcp-use/pull/1708"
+    },
+    {
+      "number": 1029,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "open",
+      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
+      "updatedAt": "2026-07-14T17:47:16Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
+    },
     {
       "number": 3013,
       "repository": {
@@ -12,17 +67,6 @@
       "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
       "updatedAt": "2026-07-11T11:54:56Z",
       "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
-    },
-    {
-      "number": 1029,
-      "repository": {
-        "name": "go-sdk",
-        "nameWithOwner": "modelcontextprotocol/go-sdk"
-      },
-      "state": "open",
-      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
-      "updatedAt": "2026-07-11T11:52:35Z",
-      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
     },
     {
       "number": 1401,
@@ -364,17 +408,6 @@
       "title": "fix(jsonrpc2): decode requests when method key is present",
       "updatedAt": "2026-06-16T07:57:19Z",
       "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1000"
-    },
-    {
-      "number": 1708,
-      "repository": {
-        "name": "mcp-use",
-        "nameWithOwner": "mcp-use/mcp-use"
-      },
-      "state": "open",
-      "title": "fix(react): isolate useMcp connection lifecycle (Option A)",
-      "updatedAt": "2026-06-15T13:13:33Z",
-      "url": "https://github.com/mcp-use/mcp-use/pull/1708"
     },
     {
       "number": 202,
