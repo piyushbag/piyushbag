@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-07-15",
+  "generated_at": "2026-07-16",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 8662,
+      "repository": {
+        "name": "apicurio-registry",
+        "nameWithOwner": "Apicurio/apicurio-registry"
+      },
+      "state": "open",
+      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
+      "updatedAt": "2026-07-16T10:35:37Z",
+      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 327,
+      "repository": {
+        "name": "oracle",
+        "nameWithOwner": "steipete/oracle"
+      },
+      "state": "open",
+      "title": "fix(browser): recover answers after recoverable CDP disconnect",
+      "updatedAt": "2026-07-16T09:02:42Z",
+      "url": "https://github.com/steipete/oracle/pull/327"
+    },
+    {
+      "number": 1446,
+      "repository": {
+        "name": "registry",
+        "nameWithOwner": "modelcontextprotocol/registry"
+      },
+      "state": "open",
+      "title": "fix(schema): upgrade server.json dialect to JSON Schema 2020-12",
+      "updatedAt": "2026-07-15T17:42:57Z",
+      "url": "https://github.com/modelcontextprotocol/registry/pull/1446"
+    },
+    {
+      "number": 2543,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(standalone): classify dual-role policies for backend targets",
+      "updatedAt": "2026-07-15T17:42:55Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2543"
+    },
     {
       "number": 10488,
       "repository": {
@@ -10,7 +54,7 @@
       },
       "state": "open",
       "title": "fix(acp): keep loadSession usable when recipe hydration fails",
-      "updatedAt": "2026-07-15T14:45:05Z",
+      "updatedAt": "2026-07-15T17:22:26Z",
       "url": "https://github.com/aaif-goose/goose/pull/10488"
     },
     {
