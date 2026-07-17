@@ -1,7 +1,73 @@
 {
-  "generated_at": "2026-07-16",
+  "generated_at": "2026-07-17",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 327,
+      "repository": {
+        "name": "oracle",
+        "nameWithOwner": "steipete/oracle"
+      },
+      "state": "open",
+      "title": "fix(browser): recover answers after recoverable CDP disconnect",
+      "updatedAt": "2026-07-17T16:26:46Z",
+      "url": "https://github.com/steipete/oracle/pull/327"
+    },
+    {
+      "number": 3013,
+      "repository": {
+        "name": "python-sdk",
+        "nameWithOwner": "modelcontextprotocol/python-sdk"
+      },
+      "state": "open",
+      "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
+      "updatedAt": "2026-07-17T13:58:42Z",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
+    },
+    {
+      "number": 2207,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
+      "updatedAt": "2026-07-17T13:57:55Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
+    },
+    {
+      "number": 2538,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(mcp): multiplex opaque resource URIs",
+      "updatedAt": "2026-07-17T13:57:54Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2538"
+    },
+    {
+      "number": 2539,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "merged",
+      "title": "fix(llm): rewrite Vertex rawPredict for any publisher",
+      "updatedAt": "2026-07-16T23:08:23Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2539"
+    },
+    {
+      "number": 2543,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "merged",
+      "title": "fix(standalone): classify dual-role policies for backend targets",
+      "updatedAt": "2026-07-16T20:55:59Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2543"
+    },
     {
       "number": 8662,
       "repository": {
@@ -12,17 +78,6 @@
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
       "updatedAt": "2026-07-16T10:35:37Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
-    },
-    {
-      "number": 327,
-      "repository": {
-        "name": "oracle",
-        "nameWithOwner": "steipete/oracle"
-      },
-      "state": "open",
-      "title": "fix(browser): recover answers after recoverable CDP disconnect",
-      "updatedAt": "2026-07-16T09:02:42Z",
-      "url": "https://github.com/steipete/oracle/pull/327"
     },
     {
       "number": 1446,
@@ -36,17 +91,6 @@
       "url": "https://github.com/modelcontextprotocol/registry/pull/1446"
     },
     {
-      "number": 2543,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(standalone): classify dual-role policies for backend targets",
-      "updatedAt": "2026-07-15T17:42:55Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2543"
-    },
-    {
       "number": 10488,
       "repository": {
         "name": "goose",
@@ -56,28 +100,6 @@
       "title": "fix(acp): keep loadSession usable when recipe hydration fails",
       "updatedAt": "2026-07-15T17:22:26Z",
       "url": "https://github.com/aaif-goose/goose/pull/10488"
-    },
-    {
-      "number": 2539,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(llm): rewrite Vertex rawPredict for any publisher",
-      "updatedAt": "2026-07-15T13:35:29Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2539"
-    },
-    {
-      "number": 2538,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(mcp): multiplex opaque resource URIs",
-      "updatedAt": "2026-07-15T13:09:40Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2538"
     },
     {
       "number": 1708,
@@ -102,17 +124,6 @@
       "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
     },
     {
-      "number": 3013,
-      "repository": {
-        "name": "python-sdk",
-        "nameWithOwner": "modelcontextprotocol/python-sdk"
-      },
-      "state": "open",
-      "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
-      "updatedAt": "2026-07-11T11:54:56Z",
-      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
-    },
-    {
       "number": 1401,
       "repository": {
         "name": "registry",
@@ -122,17 +133,6 @@
       "title": "fix(handlers): return 499 on client cancel for get-server endpoints",
       "updatedAt": "2026-07-11T11:48:20Z",
       "url": "https://github.com/modelcontextprotocol/registry/pull/1401"
-    },
-    {
-      "number": 2207,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
-      "updatedAt": "2026-07-11T11:48:19Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
     },
     {
       "number": 1030,
