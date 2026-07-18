@@ -215,7 +215,7 @@ def build_readme(config: dict, prs: list[dict]) -> str:
 
 [![Blog](https://img.shields.io/badge/Blog-piyushbag.com-FF5722?style=flat&logo=google-chrome&logoColor=white)]({social['blog']}) [![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushbag-0A66C2?style=flat&logo=linkedin)]({social['linkedin']}) [![X @piyushbagitall](https://img.shields.io/badge/X-@piyushbagitall-000?style=flat&logo=x)]({social['x']})
 
-Test automation engineer at [{role['company']}]({role['company_url']}). {role['tagline']} Open source: {tagline_highlights}
+Software engineer at [{role['company']}]({role['company_url']}). {role['tagline']} Open source: {tagline_highlights}
 
 #### Building
 
