@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-07-18",
+  "generated_at": "2026-07-19",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 119,
+      "repository": {
+        "name": "morpho-blue-liquidation-bot",
+        "nameWithOwner": "morpho-org/morpho-blue-liquidation-bot"
+      },
+      "state": "open",
+      "title": "Support Vault V2 in data provider market discovery",
+      "updatedAt": "2026-07-19T16:30:31Z",
+      "url": "https://github.com/morpho-org/morpho-blue-liquidation-bot/pull/119"
+    },
     {
       "number": 8662,
       "repository": {
@@ -10,8 +21,107 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-18T16:07:37Z",
+      "updatedAt": "2026-07-19T12:33:38Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 110884,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): prove post-action target continuity before adopting a tab",
+      "updatedAt": "2026-07-19T08:20:41Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110884"
+    },
+    {
+      "number": 67054,
+      "repository": {
+        "name": "hermes-agent",
+        "nameWithOwner": "NousResearch/hermes-agent"
+      },
+      "state": "open",
+      "title": "fix(discord): deliver MEDIA video attachments instead of silent drop",
+      "updatedAt": "2026-07-19T01:39:53Z",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/67054"
+    },
+    {
+      "number": 10561,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "feat(mcp-apps): verify integrity of fetched ui:// resources",
+      "updatedAt": "2026-07-19T01:39:28Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10561"
+    },
+    {
+      "number": 10560,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "fix(computercontroller): block SSRF targets in web_scrape",
+      "updatedAt": "2026-07-19T01:27:51Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10560"
+    },
+    {
+      "number": 110882,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
+      "updatedAt": "2026-07-18T23:55:51Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110882"
+    },
+    {
+      "number": 327,
+      "repository": {
+        "name": "oracle",
+        "nameWithOwner": "steipete/oracle"
+      },
+      "state": "merged",
+      "title": "fix(browser): recover answers after recoverable CDP disconnect",
+      "updatedAt": "2026-07-18T20:48:57Z",
+      "url": "https://github.com/steipete/oracle/pull/327"
+    },
+    {
+      "number": 17,
+      "repository": {
+        "name": "neural-steering",
+        "nameWithOwner": "NousResearch/neural-steering"
+      },
+      "state": "open",
+      "title": "Add packaging metadata, CI, and unit tests for steering logic",
+      "updatedAt": "2026-07-18T18:21:52Z",
+      "url": "https://github.com/NousResearch/neural-steering/pull/17"
+    },
+    {
+      "number": 2589,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "feat(transformation): add CEL replace mode for headers",
+      "updatedAt": "2026-07-18T18:18:01Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2589"
+    },
+    {
+      "number": 2588,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(config): fail startup when a static local bind cannot be opened",
+      "updatedAt": "2026-07-18T18:08:02Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2588"
     },
     {
       "number": 2207,
@@ -45,17 +155,6 @@
       "title": "fix(mcp): multiplex opaque resource URIs",
       "updatedAt": "2026-07-17T21:39:52Z",
       "url": "https://github.com/agentgateway/agentgateway/pull/2538"
-    },
-    {
-      "number": 327,
-      "repository": {
-        "name": "oracle",
-        "nameWithOwner": "steipete/oracle"
-      },
-      "state": "open",
-      "title": "fix(browser): recover answers after recoverable CDP disconnect",
-      "updatedAt": "2026-07-17T17:33:41Z",
-      "url": "https://github.com/steipete/oracle/pull/327"
     },
     {
       "number": 2539,
