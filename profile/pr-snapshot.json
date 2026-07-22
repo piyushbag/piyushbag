@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21",
+  "generated_at": "2026-07-22",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,30 +10,8 @@
       },
       "state": "open",
       "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
-      "updatedAt": "2026-07-21T15:24:37Z",
+      "updatedAt": "2026-07-22T14:37:19Z",
       "url": "https://github.com/agentgateway/agentgateway/pull/2207"
-    },
-    {
-      "number": 8662,
-      "repository": {
-        "name": "apicurio-registry",
-        "nameWithOwner": "Apicurio/apicurio-registry"
-      },
-      "state": "open",
-      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-21T12:48:00Z",
-      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
-    },
-    {
-      "number": 110884,
-      "repository": {
-        "name": "openclaw",
-        "nameWithOwner": "openclaw/openclaw"
-      },
-      "state": "open",
-      "title": "fix(browser): prove post-action target continuity before adopting a tab",
-      "updatedAt": "2026-07-21T11:45:15Z",
-      "url": "https://github.com/openclaw/openclaw/pull/110884"
     },
     {
       "number": 110882,
@@ -43,8 +21,52 @@
       },
       "state": "open",
       "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
-      "updatedAt": "2026-07-21T02:34:55Z",
+      "updatedAt": "2026-07-22T14:36:51Z",
       "url": "https://github.com/openclaw/openclaw/pull/110882"
+    },
+    {
+      "number": 110884,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): prove post-action target continuity before adopting a tab",
+      "updatedAt": "2026-07-22T14:36:56Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110884"
+    },
+    {
+      "number": 8662,
+      "repository": {
+        "name": "apicurio-registry",
+        "nameWithOwner": "Apicurio/apicurio-registry"
+      },
+      "state": "open",
+      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
+      "updatedAt": "2026-07-22T12:46:34Z",
+      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 28,
+      "repository": {
+        "name": "mcp-server-justlend",
+        "nameWithOwner": "justlend/mcp-server-justlend"
+      },
+      "state": "open",
+      "title": "fix(address): accept hex TRON addresses in resolveAddress",
+      "updatedAt": "2026-07-22T09:55:04Z",
+      "url": "https://github.com/justlend/mcp-server-justlend/pull/28"
+    },
+    {
+      "number": 1142,
+      "repository": {
+        "name": "a2a-python",
+        "nameWithOwner": "a2aproject/a2a-python"
+      },
+      "state": "closed",
+      "title": "feat(client): add opt-in card validation hooks",
+      "updatedAt": "2026-07-22T07:33:49Z",
+      "url": "https://github.com/a2aproject/a2a-python/pull/1142"
     },
     {
       "number": 2588,
@@ -54,8 +76,217 @@
       },
       "state": "open",
       "title": "fix(config): fail startup when a static local bind cannot be opened",
-      "updatedAt": "2026-07-20T20:21:27Z",
+      "updatedAt": "2026-07-21T21:11:26Z",
       "url": "https://github.com/agentgateway/agentgateway/pull/2588"
+    },
+    {
+      "number": 2589,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "merged",
+      "title": "feat(transformation): add CEL replace mode for headers",
+      "updatedAt": "2026-07-21T19:44:11Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2589"
+    },
+    {
+      "number": 180,
+      "repository": {
+        "name": "spark-spells",
+        "nameWithOwner": "sparkdotfi/spark-spells"
+      },
+      "state": "open",
+      "title": "test: skip deployPayloads for pre-set spell addresses",
+      "updatedAt": "2026-07-21T19:06:48Z",
+      "url": "https://github.com/sparkdotfi/spark-spells/pull/180"
+    },
+    {
+      "number": 181,
+      "repository": {
+        "name": "spark-spells",
+        "nameWithOwner": "sparkdotfi/spark-spells"
+      },
+      "state": "open",
+      "title": "test: harden Morpho Pendle PT oracle assertions",
+      "updatedAt": "2026-07-21T18:57:19Z",
+      "url": "https://github.com/sparkdotfi/spark-spells/pull/181"
+    },
+    {
+      "number": 276,
+      "repository": {
+        "name": "maple-js",
+        "nameWithOwner": "maple-labs/maple-js"
+      },
+      "state": "open",
+      "title": "chore: run build steps before npm test",
+      "updatedAt": "2026-07-21T18:06:30Z",
+      "url": "https://github.com/maple-labs/maple-js/pull/276"
+    },
+    {
+      "number": 32,
+      "repository": {
+        "name": "maple-core-v2",
+        "nameWithOwner": "maple-labs/maple-core-v2"
+      },
+      "state": "open",
+      "title": "docs: fix README test directory path",
+      "updatedAt": "2026-07-21T18:05:07Z",
+      "url": "https://github.com/maple-labs/maple-core-v2/pull/32"
+    },
+    {
+      "number": 706,
+      "repository": {
+        "name": "venus-protocol",
+        "nameWithOwner": "VenusProtocol/venus-protocol"
+      },
+      "state": "open",
+      "title": "fix: restore localhost deployment workflow",
+      "updatedAt": "2026-07-21T18:03:18Z",
+      "url": "https://github.com/VenusProtocol/venus-protocol/pull/706"
+    },
+    {
+      "number": 705,
+      "repository": {
+        "name": "venus-protocol",
+        "nameWithOwner": "VenusProtocol/venus-protocol"
+      },
+      "state": "open",
+      "title": "docs: complete VBep20Interface NatSpec comments",
+      "updatedAt": "2026-07-21T18:03:13Z",
+      "url": "https://github.com/VenusProtocol/venus-protocol/pull/705"
+    },
+    {
+      "number": 1324,
+      "repository": {
+        "name": "aave-v4",
+        "nameWithOwner": "aave/aave-v4"
+      },
+      "state": "open",
+      "title": "test(spoke): add PositionStatusFlag action coverage",
+      "updatedAt": "2026-07-21T17:55:15Z",
+      "url": "https://github.com/aave/aave-v4/pull/1324"
+    },
+    {
+      "number": 1323,
+      "repository": {
+        "name": "aave-v4",
+        "nameWithOwner": "aave/aave-v4"
+      },
+      "state": "open",
+      "title": "feat(libraries): add dewadifyUp and rayToBps helpers",
+      "updatedAt": "2026-07-21T17:55:13Z",
+      "url": "https://github.com/aave/aave-v4/pull/1323"
+    },
+    {
+      "number": 1143,
+      "repository": {
+        "name": "comet",
+        "nameWithOwner": "compound-finance/comet"
+      },
+      "state": "open",
+      "title": "feat: emit TransferBase on base balance updates",
+      "updatedAt": "2026-07-21T17:55:11Z",
+      "url": "https://github.com/compound-finance/comet/pull/1143"
+    },
+    {
+      "number": 1142,
+      "repository": {
+        "name": "comet",
+        "nameWithOwner": "compound-finance/comet"
+      },
+      "state": "open",
+      "title": "test: bump bulker scenario supply caps before actions",
+      "updatedAt": "2026-07-21T17:55:08Z",
+      "url": "https://github.com/compound-finance/comet/pull/1142"
+    },
+    {
+      "number": 49,
+      "repository": {
+        "name": "scope",
+        "nameWithOwner": "Kamino-Finance/scope"
+      },
+      "state": "open",
+      "title": "docs: fix README grammar and anchor labels",
+      "updatedAt": "2026-07-21T17:52:29Z",
+      "url": "https://github.com/Kamino-Finance/scope/pull/49"
+    },
+    {
+      "number": 13,
+      "repository": {
+        "name": "klend-sdk",
+        "nameWithOwner": "Kamino-Finance/klend-sdk"
+      },
+      "state": "open",
+      "title": "docs: update KaminoMarket.load examples for v7 API",
+      "updatedAt": "2026-07-21T17:52:27Z",
+      "url": "https://github.com/Kamino-Finance/klend-sdk/pull/13"
+    },
+    {
+      "number": 90,
+      "repository": {
+        "name": "justlend-docs",
+        "nameWithOwner": "justlend/justlend-docs"
+      },
+      "state": "open",
+      "title": "docs: add guide for resolving contract addresses",
+      "updatedAt": "2026-07-21T17:52:23Z",
+      "url": "https://github.com/justlend/justlend-docs/pull/90"
+    },
+    {
+      "number": 502,
+      "repository": {
+        "name": "sdk",
+        "nameWithOwner": "centrifuge/sdk"
+      },
+      "state": "open",
+      "title": "feat(poolMetadata): add monthlySummary to SectionRef registry",
+      "updatedAt": "2026-07-21T17:52:21Z",
+      "url": "https://github.com/centrifuge/sdk/pull/502"
+    },
+    {
+      "number": 642,
+      "repository": {
+        "name": "documentation",
+        "nameWithOwner": "centrifuge/documentation"
+      },
+      "state": "open",
+      "title": "docs(api): add Assets query for assetId lookup",
+      "updatedAt": "2026-07-21T17:52:19Z",
+      "url": "https://github.com/centrifuge/documentation/pull/642"
+    },
+    {
+      "number": 8,
+      "repository": {
+        "name": "fluid-solana-programs",
+        "nameWithOwner": "Instadapp/fluid-solana-programs"
+      },
+      "state": "open",
+      "title": "chore(deps): override form-data to 4.0.6",
+      "updatedAt": "2026-07-21T17:52:17Z",
+      "url": "https://github.com/Instadapp/fluid-solana-programs/pull/8"
+    },
+    {
+      "number": 7,
+      "repository": {
+        "name": "fluid-solana-programs",
+        "nameWithOwner": "Instadapp/fluid-solana-programs"
+      },
+      "state": "open",
+      "title": "fix(test-utils): validate fixture paths against repo root",
+      "updatedAt": "2026-07-21T17:52:15Z",
+      "url": "https://github.com/Instadapp/fluid-solana-programs/pull/7"
+    },
+    {
+      "number": 1141,
+      "repository": {
+        "name": "a2a-python",
+        "nameWithOwner": "a2aproject/a2a-python"
+      },
+      "state": "open",
+      "title": "fix(utils): protobuf-compatible repeated field detection",
+      "updatedAt": "2026-07-21T17:41:41Z",
+      "url": "https://github.com/a2aproject/a2a-python/pull/1141"
     },
     {
       "number": 203,
@@ -155,17 +386,6 @@
       "title": "Add packaging metadata, CI, and unit tests for steering logic",
       "updatedAt": "2026-07-18T18:21:52Z",
       "url": "https://github.com/NousResearch/neural-steering/pull/17"
-    },
-    {
-      "number": 2589,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "feat(transformation): add CEL replace mode for headers",
-      "updatedAt": "2026-07-18T18:18:01Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2589"
     },
     {
       "number": 3013,
