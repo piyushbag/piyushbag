@@ -2,7 +2,7 @@
 
 [![Blog](https://img.shields.io/badge/Blog-piyushbag.com-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://www.piyushbag.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-piyushbag-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/piyushbag) [![X @piyushbagitall](https://img.shields.io/badge/X-@piyushbagitall-000?style=flat&logo=x)](https://x.com/piyushbagitall)
 
-Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 10★ · [agentgateway](https://github.com/agentgateway/agentgateway/pull/2589) merged · [agentgateway](https://github.com/agentgateway/agentgateway/pull/2207) in flight
+Test automation engineer at [Arista Networks](https://www.arista.com). Post-silicon validation, hardware ops, and agentic test automation. Open source: [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow) 10★ · [agentgateway](https://github.com/agentgateway/agentgateway/pull/2589) merged · [MCP Inspector](https://github.com/modelcontextprotocol/inspector/pull/1539) in flight
 
 #### Building
 
@@ -12,27 +12,29 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
 #### Contributing to
 
 - **[openclaw](https://github.com/openclaw)**
-  - **[Openclaw](https://github.com/openclaw/openclaw)** [![GitHub stars](https://img.shields.io/badge/stars-383817-gold?style=flat&logo=github&logoColor=white)](https://github.com/openclaw/openclaw/stargazers)
+  - **[Openclaw](https://github.com/openclaw/openclaw)** [![GitHub stars](https://img.shields.io/badge/stars-383913-gold?style=flat&logo=github&logoColor=white)](https://github.com/openclaw/openclaw/stargazers)
     - fix(browser): stop screenshot vision-failure fallback from injecting raw base64 ([#110882](https://github.com/openclaw/openclaw/pull/110882))
     - fix(browser): prove post-action target continuity before adopting a tab ([#110884](https://github.com/openclaw/openclaw/pull/110884))
 - **[NousResearch](https://github.com/NousResearch)**
-  - **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** [![GitHub stars](https://img.shields.io/badge/stars-218863-gold?style=flat&logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/stargazers)
+  - **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** [![GitHub stars](https://img.shields.io/badge/stars-219361-gold?style=flat&logo=github&logoColor=white)](https://github.com/NousResearch/hermes-agent/stargazers)
     - fix(discord): deliver MEDIA video attachments instead of silent drop ([#67054](https://github.com/NousResearch/hermes-agent/pull/67054))
   - **[Neural Steering](https://github.com/NousResearch/neural-steering)** [![GitHub stars](https://img.shields.io/badge/stars-32-gold?style=flat&logo=github&logoColor=white)](https://github.com/NousResearch/neural-steering/stargazers)
     - Add packaging metadata, CI, and unit tests for steering logic ([#17](https://github.com/NousResearch/neural-steering/pull/17))
 - **[Model Context Protocol](https://github.com/modelcontextprotocol)**
-  - **[MCP Servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/badge/stars-88780-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/servers/stargazers)
+  - **[MCP Servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/badge/stars-88804-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/servers/stargazers)
     - feat(fetch): add tool annotations for fetch tool ([#4428](https://github.com/modelcontextprotocol/servers/pull/4428))
-  - **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-23690-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/python-sdk/stargazers)
+  - **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-23698-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/python-sdk/stargazers)
     - fix(auth): strip trailing slashes from OAuth metadata URLs ([#3013](https://github.com/modelcontextprotocol/python-sdk/pull/3013))
-  - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** [![GitHub stars](https://img.shields.io/badge/stars-10435-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/inspector/stargazers)
+  - **[MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-12933-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/typescript-sdk/stargazers)
+    - fix(stdio): release ReadBuffer backing after final byte ([#2540](https://github.com/modelcontextprotocol/typescript-sdk/pull/2540))
+  - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** [![GitHub stars](https://img.shields.io/badge/stars-10447-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/inspector/stargazers)
     - fix(ci): link e2e PR summary to Playwright artifact download (#1259) ([#1539](https://github.com/modelcontextprotocol/inspector/pull/1539))
-  - **[MCP Specification](https://github.com/modelcontextprotocol/modelcontextprotocol)** [![GitHub stars](https://img.shields.io/badge/stars-8662-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/modelcontextprotocol/stargazers)
+  - **[MCP Specification](https://github.com/modelcontextprotocol/modelcontextprotocol)** [![GitHub stars](https://img.shields.io/badge/stars-8667-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/modelcontextprotocol/stargazers)
     - docs: simplify Mcp-Param client note for missing inputSchema ([#2983](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2983))
-  - **[MCP Registry](https://github.com/modelcontextprotocol/registry)** [![GitHub stars](https://img.shields.io/badge/stars-7060-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/registry/stargazers)
+  - **[MCP Registry](https://github.com/modelcontextprotocol/registry)** [![GitHub stars](https://img.shields.io/badge/stars-7063-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/registry/stargazers)
     - fix(handlers): return 499 on client cancel for get-server endpoints ([#1401](https://github.com/modelcontextprotocol/registry/pull/1401))
     - fix(schema): upgrade server.json dialect to JSON Schema 2020-12 ([#1446](https://github.com/modelcontextprotocol/registry/pull/1446))
-  - **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-4836-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/go-sdk/stargazers)
+  - **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-4842-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/go-sdk/stargazers)
     - fix(jsonrpc2): decode requests when method key is present ([#999](https://github.com/modelcontextprotocol/go-sdk/pull/999))
     - fix(jsonrpc2): decode requests when method key is present ([#1000](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged)
     - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1001](https://github.com/modelcontextprotocol/go-sdk/pull/1001))
@@ -40,22 +42,23 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
     - mcp: deprecate roots, sampling, and logging (SEP-2577) ([#1013](https://github.com/modelcontextprotocol/go-sdk/pull/1013))
     - mcp: add StreamableHTTPHandler.Close for graceful shutdown ([#1029](https://github.com/modelcontextprotocol/go-sdk/pull/1029))
     - mcp: add ListResourcesHandler for dynamic resources/list ([#1030](https://github.com/modelcontextprotocol/go-sdk/pull/1030))
+    - mcp: reject discover when transport lacks version ([#1108](https://github.com/modelcontextprotocol/go-sdk/pull/1108))
 - **[Goose (AAIF)](https://github.com/aaif-goose)**
-  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/badge/stars-51475-gold?style=flat&logo=github&logoColor=white)](https://github.com/aaif-goose/goose/stargazers)
+  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/badge/stars-51535-gold?style=flat&logo=github&logoColor=white)](https://github.com/aaif-goose/goose/stargazers)
     - fix(desktop): honor GOOSE_CONTEXT_LIMIT for custom model context display ([#10070](https://github.com/aaif-goose/goose/pull/10070))
     - fix(server): return effective context limit from /model-info ([#10165](https://github.com/aaif-goose/goose/pull/10165) merged)
     - fix(acp): keep loadSession usable when recipe hydration fails ([#10488](https://github.com/aaif-goose/goose/pull/10488))
     - fix(computercontroller): block SSRF targets in web_scrape ([#10560](https://github.com/aaif-goose/goose/pull/10560))
     - feat(mcp-apps): verify integrity of fetched ui:// resources ([#10561](https://github.com/aaif-goose/goose/pull/10561))
 - **[agentsmd](https://github.com/agentsmd)**
-  - **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/badge/stars-23153-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentsmd/agents.md/stargazers)
+  - **[AGENTS.md](https://github.com/agentsmd/agents.md)** [![GitHub stars](https://img.shields.io/badge/stars-23168-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentsmd/agents.md/stargazers)
     - Add OpenHands to compatibility section ([#202](https://github.com/agentsmd/agents.md/pull/202))
     - feat(compat): OpenHands listing and daily-seeded agent order ([#203](https://github.com/agentsmd/agents.md/pull/203))
 - **[mcp-use](https://github.com/mcp-use)**
-  - **[mcp-use](https://github.com/mcp-use/mcp-use)** [![GitHub stars](https://img.shields.io/badge/stars-10337-gold?style=flat&logo=github&logoColor=white)](https://github.com/mcp-use/mcp-use/stargazers)
+  - **[mcp-use](https://github.com/mcp-use/mcp-use)** [![GitHub stars](https://img.shields.io/badge/stars-10345-gold?style=flat&logo=github&logoColor=white)](https://github.com/mcp-use/mcp-use/stargazers)
     - fix(react): isolate useMcp connection lifecycle (Option A) ([#1708](https://github.com/mcp-use/mcp-use/pull/1708))
 - **[agentgateway](https://github.com/agentgateway)**
-  - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/badge/stars-4005-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentgateway/agentgateway/stargazers)
+  - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/badge/stars-4020-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentgateway/agentgateway/stargazers)
     - docs: EP-2141 governance metadata for gateway traces ([#2205](https://github.com/agentgateway/agentgateway/pull/2205))
     - fix(mcp): route client JSON-RPC responses for server-initiated requests ([#2207](https://github.com/agentgateway/agentgateway/pull/2207))
     - fix(mcp): multiplex opaque resource URIs ([#2538](https://github.com/agentgateway/agentgateway/pull/2538) merged)
@@ -64,21 +67,21 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
     - fix(config): fail startup when a static local bind cannot be opened ([#2588](https://github.com/agentgateway/agentgateway/pull/2588))
     - feat(transformation): add CEL replace mode for headers ([#2589](https://github.com/agentgateway/agentgateway/pull/2589) merged)
 - **[steipete](https://github.com/steipete)**
-  - **[Oracle](https://github.com/steipete/oracle)** [![GitHub stars](https://img.shields.io/badge/stars-3284-gold?style=flat&logo=github&logoColor=white)](https://github.com/steipete/oracle/stargazers)
+  - **[Oracle](https://github.com/steipete/oracle)** [![GitHub stars](https://img.shields.io/badge/stars-3286-gold?style=flat&logo=github&logoColor=white)](https://github.com/steipete/oracle/stargazers)
     - fix(browser): recover answers after recoverable CDP disconnect ([#327](https://github.com/steipete/oracle/pull/327) merged)
 - **[a2aproject](https://github.com/a2aproject)**
-  - **[A2A Python](https://github.com/a2aproject/a2a-python)** [![GitHub stars](https://img.shields.io/badge/stars-2039-gold?style=flat&logo=github&logoColor=white)](https://github.com/a2aproject/a2a-python/stargazers)
+  - **[A2A Python](https://github.com/a2aproject/a2a-python)** [![GitHub stars](https://img.shields.io/badge/stars-2041-gold?style=flat&logo=github&logoColor=white)](https://github.com/a2aproject/a2a-python/stargazers)
     - fix(utils): protobuf-compatible repeated field detection ([#1141](https://github.com/a2aproject/a2a-python/pull/1141))
     - feat(client): add opt-in card validation hooks ([#1142](https://github.com/a2aproject/a2a-python/pull/1142))
 - **[Apicurio](https://github.com/Apicurio)**
-  - **[Apicurio Registry](https://github.com/Apicurio/apicurio-registry)** [![GitHub stars](https://img.shields.io/badge/stars-846-gold?style=flat&logo=github&logoColor=white)](https://github.com/Apicurio/apicurio-registry/stargazers)
+  - **[Apicurio Registry](https://github.com/Apicurio/apicurio-registry)** [![GitHub stars](https://img.shields.io/badge/stars-847-gold?style=flat&logo=github&logoColor=white)](https://github.com/Apicurio/apicurio-registry/stargazers)
     - fix(rules): detect MCP tool parameter type and enum breaking changes ([#8662](https://github.com/Apicurio/apicurio-registry/pull/8662))
 - **[compound-finance](https://github.com/compound-finance)**
   - **[Comet](https://github.com/compound-finance/comet)** [![GitHub stars](https://img.shields.io/badge/stars-313-gold?style=flat&logo=github&logoColor=white)](https://github.com/compound-finance/comet/stargazers)
     - test: bump bulker scenario supply caps before actions ([#1142](https://github.com/compound-finance/comet/pull/1142))
     - feat: emit TransferBase on base balance updates ([#1143](https://github.com/compound-finance/comet/pull/1143))
 - **[VenusProtocol](https://github.com/VenusProtocol)**
-  - **[Venus Protocol](https://github.com/VenusProtocol/venus-protocol)** [![GitHub stars](https://img.shields.io/badge/stars-280-gold?style=flat&logo=github&logoColor=white)](https://github.com/VenusProtocol/venus-protocol/stargazers)
+  - **[Venus Protocol](https://github.com/VenusProtocol/venus-protocol)** [![GitHub stars](https://img.shields.io/badge/stars-278-gold?style=flat&logo=github&logoColor=white)](https://github.com/VenusProtocol/venus-protocol/stargazers)
     - docs: complete VBep20Interface NatSpec comments ([#705](https://github.com/VenusProtocol/venus-protocol/pull/705))
     - fix: restore localhost deployment workflow ([#706](https://github.com/VenusProtocol/venus-protocol/pull/706))
 - **[aave](https://github.com/aave)**
@@ -96,7 +99,7 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
   - **[Klend Sdk](https://github.com/Kamino-Finance/klend-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-57-gold?style=flat&logo=github&logoColor=white)](https://github.com/Kamino-Finance/klend-sdk/stargazers)
     - docs: update KaminoMarket.load examples for v7 API ([#13](https://github.com/Kamino-Finance/klend-sdk/pull/13))
 - **[gofixpoint](https://github.com/gofixpoint)**
-  - **[Amika](https://github.com/gofixpoint/amika)** [![GitHub stars](https://img.shields.io/badge/stars-118-gold?style=flat&logo=github&logoColor=white)](https://github.com/gofixpoint/amika/stargazers)
+  - **[Amika](https://github.com/gofixpoint/amika)** [![GitHub stars](https://img.shields.io/badge/stars-123-gold?style=flat&logo=github&logoColor=white)](https://github.com/gofixpoint/amika/stargazers)
     - feat: stream agent stdout/stderr in real time (closes #156) ([#262](https://github.com/gofixpoint/amika/pull/262))
 - **[morpho-org](https://github.com/morpho-org)**
   - **[Morpho Blue Liquidation Bot](https://github.com/morpho-org/morpho-blue-liquidation-bot)** [![GitHub stars](https://img.shields.io/badge/stars-112-gold?style=flat&logo=github&logoColor=white)](https://github.com/morpho-org/morpho-blue-liquidation-bot/stargazers)
@@ -124,6 +127,6 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
 
 Technical posts on hardware test automation, MCP, and agentic engineering: [www.piyushbag.com/blog](https://www.piyushbag.com/blog)
 
-*Last updated: 2026-07-22*
+*Last updated: 2026-07-23*
 
 <!-- Generated by scripts/generate_profile_readme.py — do not edit by hand; change profile/config.yaml or merge upstream PRs. -->

@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-07-22",
+  "generated_at": "2026-07-23",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 1539,
+      "repository": {
+        "name": "inspector",
+        "nameWithOwner": "modelcontextprotocol/inspector"
+      },
+      "state": "open",
+      "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
+      "updatedAt": "2026-07-23T15:59:17Z",
+      "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
+    },
+    {
+      "number": 2540,
+      "repository": {
+        "name": "typescript-sdk",
+        "nameWithOwner": "modelcontextprotocol/typescript-sdk"
+      },
+      "state": "open",
+      "title": "fix(stdio): release ReadBuffer backing after final byte",
+      "updatedAt": "2026-07-23T15:59:06Z",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/2540"
+    },
+    {
+      "number": 3013,
+      "repository": {
+        "name": "python-sdk",
+        "nameWithOwner": "modelcontextprotocol/python-sdk"
+      },
+      "state": "open",
+      "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
+      "updatedAt": "2026-07-23T15:57:40Z",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
+    },
+    {
+      "number": 1029,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "open",
+      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
+      "updatedAt": "2026-07-23T15:57:39Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
+    },
+    {
+      "number": 1108,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "open",
+      "title": "mcp: reject discover when transport lacks version",
+      "updatedAt": "2026-07-23T15:57:17Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1108"
+    },
+    {
+      "number": 706,
+      "repository": {
+        "name": "venus-protocol",
+        "nameWithOwner": "VenusProtocol/venus-protocol"
+      },
+      "state": "open",
+      "title": "fix: restore localhost deployment workflow",
+      "updatedAt": "2026-07-23T15:37:49Z",
+      "url": "https://github.com/VenusProtocol/venus-protocol/pull/706"
+    },
+    {
+      "number": 705,
+      "repository": {
+        "name": "venus-protocol",
+        "nameWithOwner": "VenusProtocol/venus-protocol"
+      },
+      "state": "open",
+      "title": "docs: complete VBep20Interface NatSpec comments",
+      "updatedAt": "2026-07-23T15:34:53Z",
+      "url": "https://github.com/VenusProtocol/venus-protocol/pull/705"
+    },
+    {
+      "number": 28,
+      "repository": {
+        "name": "mcp-server-justlend",
+        "nameWithOwner": "justlend/mcp-server-justlend"
+      },
+      "state": "closed",
+      "title": "fix(address): accept hex TRON addresses in resolveAddress",
+      "updatedAt": "2026-07-23T15:29:20Z",
+      "url": "https://github.com/justlend/mcp-server-justlend/pull/28"
+    },
+    {
+      "number": 8662,
+      "repository": {
+        "name": "apicurio-registry",
+        "nameWithOwner": "Apicurio/apicurio-registry"
+      },
+      "state": "open",
+      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
+      "updatedAt": "2026-07-23T12:47:58Z",
+      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
     {
       "number": 2207,
       "repository": {
@@ -34,28 +133,6 @@
       "title": "fix(browser): prove post-action target continuity before adopting a tab",
       "updatedAt": "2026-07-22T14:36:56Z",
       "url": "https://github.com/openclaw/openclaw/pull/110884"
-    },
-    {
-      "number": 8662,
-      "repository": {
-        "name": "apicurio-registry",
-        "nameWithOwner": "Apicurio/apicurio-registry"
-      },
-      "state": "open",
-      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-22T12:46:34Z",
-      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
-    },
-    {
-      "number": 28,
-      "repository": {
-        "name": "mcp-server-justlend",
-        "nameWithOwner": "justlend/mcp-server-justlend"
-      },
-      "state": "open",
-      "title": "fix(address): accept hex TRON addresses in resolveAddress",
-      "updatedAt": "2026-07-22T09:55:04Z",
-      "url": "https://github.com/justlend/mcp-server-justlend/pull/28"
     },
     {
       "number": 1142,
@@ -133,28 +210,6 @@
       "title": "docs: fix README test directory path",
       "updatedAt": "2026-07-21T18:05:07Z",
       "url": "https://github.com/maple-labs/maple-core-v2/pull/32"
-    },
-    {
-      "number": 706,
-      "repository": {
-        "name": "venus-protocol",
-        "nameWithOwner": "VenusProtocol/venus-protocol"
-      },
-      "state": "open",
-      "title": "fix: restore localhost deployment workflow",
-      "updatedAt": "2026-07-21T18:03:18Z",
-      "url": "https://github.com/VenusProtocol/venus-protocol/pull/706"
-    },
-    {
-      "number": 705,
-      "repository": {
-        "name": "venus-protocol",
-        "nameWithOwner": "VenusProtocol/venus-protocol"
-      },
-      "state": "open",
-      "title": "docs: complete VBep20Interface NatSpec comments",
-      "updatedAt": "2026-07-21T18:03:13Z",
-      "url": "https://github.com/VenusProtocol/venus-protocol/pull/705"
     },
     {
       "number": 1324,
@@ -300,17 +355,6 @@
       "url": "https://github.com/agentsmd/agents.md/pull/203"
     },
     {
-      "number": 1029,
-      "repository": {
-        "name": "go-sdk",
-        "nameWithOwner": "modelcontextprotocol/go-sdk"
-      },
-      "state": "open",
-      "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
-      "updatedAt": "2026-07-19T16:57:23Z",
-      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
-    },
-    {
       "number": 1030,
       "repository": {
         "name": "go-sdk",
@@ -386,17 +430,6 @@
       "title": "Add packaging metadata, CI, and unit tests for steering logic",
       "updatedAt": "2026-07-18T18:21:52Z",
       "url": "https://github.com/NousResearch/neural-steering/pull/17"
-    },
-    {
-      "number": 3013,
-      "repository": {
-        "name": "python-sdk",
-        "nameWithOwner": "modelcontextprotocol/python-sdk"
-      },
-      "state": "open",
-      "title": "fix(auth): strip trailing slashes from OAuth metadata URLs",
-      "updatedAt": "2026-07-18T15:06:40Z",
-      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3013"
     },
     {
       "number": 2538,
@@ -705,17 +738,6 @@
       "title": "feat(fetch): add tool annotations for fetch tool",
       "updatedAt": "2026-06-28T10:07:28Z",
       "url": "https://github.com/modelcontextprotocol/servers/pull/4428"
-    },
-    {
-      "number": 1539,
-      "repository": {
-        "name": "inspector",
-        "nameWithOwner": "modelcontextprotocol/inspector"
-      },
-      "state": "open",
-      "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
-      "updatedAt": "2026-06-28T10:05:54Z",
-      "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
     },
     {
       "number": 1,
