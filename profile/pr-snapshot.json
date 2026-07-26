@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-07-26",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 8662,
+      "repository": {
+        "name": "apicurio-registry",
+        "nameWithOwner": "Apicurio/apicurio-registry"
+      },
+      "state": "open",
+      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
+      "updatedAt": "2026-07-26T12:39:02Z",
+      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 3075,
+      "repository": {
+        "name": "cartography",
+        "nameWithOwner": "cartography-cncf/cartography"
+      },
+      "state": "open",
+      "title": "feat(aws): add App Runner service intel module",
+      "updatedAt": "2026-07-26T03:13:48Z",
+      "url": "https://github.com/cartography-cncf/cartography/pull/3075"
+    },
     {
       "number": 6594,
       "repository": {
@@ -23,17 +45,6 @@
       "title": "fix(ts-oss/milvus): fall back to dense-only schema on pre-2.5 servers",
       "updatedAt": "2026-07-25T15:43:33Z",
       "url": "https://github.com/mem0ai/mem0/pull/6593"
-    },
-    {
-      "number": 8662,
-      "repository": {
-        "name": "apicurio-registry",
-        "nameWithOwner": "Apicurio/apicurio-registry"
-      },
-      "state": "open",
-      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-25T07:02:35Z",
-      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
     },
     {
       "number": 110882,
