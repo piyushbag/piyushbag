@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26",
+  "generated_at": "2026-07-27",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,8 +10,19 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-26T12:39:02Z",
+      "updatedAt": "2026-07-27T13:19:49Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 67054,
+      "repository": {
+        "name": "hermes-agent",
+        "nameWithOwner": "NousResearch/hermes-agent"
+      },
+      "state": "closed",
+      "title": "fix(discord): deliver MEDIA video attachments instead of silent drop",
+      "updatedAt": "2026-07-26T19:52:59Z",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/67054"
     },
     {
       "number": 3075,
@@ -419,17 +430,6 @@
       "title": "Support Vault V2 in data provider market discovery",
       "updatedAt": "2026-07-19T16:30:31Z",
       "url": "https://github.com/morpho-org/morpho-blue-liquidation-bot/pull/119"
-    },
-    {
-      "number": 67054,
-      "repository": {
-        "name": "hermes-agent",
-        "nameWithOwner": "NousResearch/hermes-agent"
-      },
-      "state": "open",
-      "title": "fix(discord): deliver MEDIA video attachments instead of silent drop",
-      "updatedAt": "2026-07-19T01:39:53Z",
-      "url": "https://github.com/NousResearch/hermes-agent/pull/67054"
     },
     {
       "number": 10561,
