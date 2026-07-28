@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-07-27",
+  "generated_at": "2026-07-28",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 1108,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "open",
+      "title": "mcp: reject discover when transport lacks version",
+      "updatedAt": "2026-07-28T16:42:47Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1108"
+    },
     {
       "number": 8662,
       "repository": {
@@ -10,8 +21,30 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-27T13:19:49Z",
+      "updatedAt": "2026-07-28T14:38:12Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 1539,
+      "repository": {
+        "name": "inspector",
+        "nameWithOwner": "modelcontextprotocol/inspector"
+      },
+      "state": "open",
+      "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
+      "updatedAt": "2026-07-28T03:04:08Z",
+      "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
+    },
+    {
+      "number": 2207,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
+      "updatedAt": "2026-07-28T00:59:48Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
     },
     {
       "number": 67054,
@@ -91,17 +124,6 @@
       "url": "https://github.com/openclaw/openclaw/pull/110884"
     },
     {
-      "number": 2207,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
-      "updatedAt": "2026-07-24T18:34:51Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
-    },
-    {
       "number": 2588,
       "repository": {
         "name": "agentgateway",
@@ -124,17 +146,6 @@
       "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/2540"
     },
     {
-      "number": 1539,
-      "repository": {
-        "name": "inspector",
-        "nameWithOwner": "modelcontextprotocol/inspector"
-      },
-      "state": "open",
-      "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
-      "updatedAt": "2026-07-23T15:59:17Z",
-      "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
-    },
-    {
       "number": 3013,
       "repository": {
         "name": "python-sdk",
@@ -155,17 +166,6 @@
       "title": "mcp: add StreamableHTTPHandler.Close for graceful shutdown",
       "updatedAt": "2026-07-23T15:57:39Z",
       "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1029"
-    },
-    {
-      "number": 1108,
-      "repository": {
-        "name": "go-sdk",
-        "nameWithOwner": "modelcontextprotocol/go-sdk"
-      },
-      "state": "open",
-      "title": "mcp: reject discover when transport lacks version",
-      "updatedAt": "2026-07-23T15:57:17Z",
-      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1108"
     },
     {
       "number": 706,
