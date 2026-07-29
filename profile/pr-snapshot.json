@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-07-29",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 8662,
+      "repository": {
+        "name": "apicurio-registry",
+        "nameWithOwner": "Apicurio/apicurio-registry"
+      },
+      "state": "open",
+      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
+      "updatedAt": "2026-07-29T12:56:11Z",
+      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
     {
       "number": 1108,
       "repository": {
@@ -12,17 +23,6 @@
       "title": "mcp: reject discover when transport lacks version",
       "updatedAt": "2026-07-28T16:42:47Z",
       "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1108"
-    },
-    {
-      "number": 8662,
-      "repository": {
-        "name": "apicurio-registry",
-        "nameWithOwner": "Apicurio/apicurio-registry"
-      },
-      "state": "open",
-      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-28T14:38:12Z",
-      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
     },
     {
       "number": 1539,
