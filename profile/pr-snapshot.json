@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-07-29",
+  "generated_at": "2026-07-30",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 110884,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): prove post-action target continuity before adopting a tab",
+      "updatedAt": "2026-07-30T17:19:32Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110884"
+    },
+    {
+      "number": 110882,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
+      "updatedAt": "2026-07-30T17:13:57Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110882"
+    },
     {
       "number": 8662,
       "repository": {
@@ -10,8 +32,63 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-29T12:56:11Z",
+      "updatedAt": "2026-07-30T16:48:08Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 2207,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "open",
+      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
+      "updatedAt": "2026-07-30T16:47:06Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
+    },
+    {
+      "number": 10561,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "feat(mcp-apps): verify integrity of fetched ui:// resources",
+      "updatedAt": "2026-07-30T14:13:31Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10561"
+    },
+    {
+      "number": 10560,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "fix(computercontroller): block SSRF targets in web_scrape",
+      "updatedAt": "2026-07-30T14:13:29Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10560"
+    },
+    {
+      "number": 10488,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "fix(acp): keep loadSession usable when recipe hydration fails",
+      "updatedAt": "2026-07-30T14:12:40Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10488"
+    },
+    {
+      "number": 1141,
+      "repository": {
+        "name": "a2a-python",
+        "nameWithOwner": "a2aproject/a2a-python"
+      },
+      "state": "closed",
+      "title": "fix(utils): protobuf-compatible repeated field detection",
+      "updatedAt": "2026-07-30T07:59:38Z",
+      "url": "https://github.com/a2aproject/a2a-python/pull/1141"
     },
     {
       "number": 1108,
@@ -34,17 +111,6 @@
       "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
       "updatedAt": "2026-07-28T03:04:08Z",
       "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
-    },
-    {
-      "number": 2207,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
-      "updatedAt": "2026-07-28T00:59:48Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
     },
     {
       "number": 67054,
@@ -91,17 +157,6 @@
       "url": "https://github.com/mem0ai/mem0/pull/6593"
     },
     {
-      "number": 110882,
-      "repository": {
-        "name": "openclaw",
-        "nameWithOwner": "openclaw/openclaw"
-      },
-      "state": "open",
-      "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
-      "updatedAt": "2026-07-24T19:00:30Z",
-      "url": "https://github.com/openclaw/openclaw/pull/110882"
-    },
-    {
       "number": 13483,
       "repository": {
         "name": "kueue",
@@ -111,17 +166,6 @@
       "title": "scheduler: periodically retry inadmissible workloads",
       "updatedAt": "2026-07-24T18:40:54Z",
       "url": "https://github.com/kubernetes-sigs/kueue/pull/13483"
-    },
-    {
-      "number": 110884,
-      "repository": {
-        "name": "openclaw",
-        "nameWithOwner": "openclaw/openclaw"
-      },
-      "state": "open",
-      "title": "fix(browser): prove post-action target continuity before adopting a tab",
-      "updatedAt": "2026-07-24T18:36:59Z",
-      "url": "https://github.com/openclaw/openclaw/pull/110884"
     },
     {
       "number": 2588,
@@ -388,17 +432,6 @@
       "url": "https://github.com/Instadapp/fluid-solana-programs/pull/7"
     },
     {
-      "number": 1141,
-      "repository": {
-        "name": "a2a-python",
-        "nameWithOwner": "a2aproject/a2a-python"
-      },
-      "state": "open",
-      "title": "fix(utils): protobuf-compatible repeated field detection",
-      "updatedAt": "2026-07-21T17:41:41Z",
-      "url": "https://github.com/a2aproject/a2a-python/pull/1141"
-    },
-    {
       "number": 203,
       "repository": {
         "name": "agents.md",
@@ -430,28 +463,6 @@
       "title": "Support Vault V2 in data provider market discovery",
       "updatedAt": "2026-07-19T16:30:31Z",
       "url": "https://github.com/morpho-org/morpho-blue-liquidation-bot/pull/119"
-    },
-    {
-      "number": 10561,
-      "repository": {
-        "name": "goose",
-        "nameWithOwner": "aaif-goose/goose"
-      },
-      "state": "open",
-      "title": "feat(mcp-apps): verify integrity of fetched ui:// resources",
-      "updatedAt": "2026-07-19T01:39:28Z",
-      "url": "https://github.com/aaif-goose/goose/pull/10561"
-    },
-    {
-      "number": 10560,
-      "repository": {
-        "name": "goose",
-        "nameWithOwner": "aaif-goose/goose"
-      },
-      "state": "open",
-      "title": "fix(computercontroller): block SSRF targets in web_scrape",
-      "updatedAt": "2026-07-19T01:27:51Z",
-      "url": "https://github.com/aaif-goose/goose/pull/10560"
     },
     {
       "number": 327,
@@ -518,17 +529,6 @@
       "title": "fix(schema): upgrade server.json dialect to JSON Schema 2020-12",
       "updatedAt": "2026-07-15T17:42:57Z",
       "url": "https://github.com/modelcontextprotocol/registry/pull/1446"
-    },
-    {
-      "number": 10488,
-      "repository": {
-        "name": "goose",
-        "nameWithOwner": "aaif-goose/goose"
-      },
-      "state": "open",
-      "title": "fix(acp): keep loadSession usable when recipe hydration fails",
-      "updatedAt": "2026-07-15T17:22:26Z",
-      "url": "https://github.com/aaif-goose/goose/pull/10488"
     },
     {
       "number": 1708,
@@ -918,13 +918,13 @@
     {
       "number": 382,
       "repository": {
-        "name": "Summer2026-Internships",
-        "nameWithOwner": "SimplifyJobs/Summer2026-Internships"
+        "name": "Summer2027-Internships",
+        "nameWithOwner": "SimplifyJobs/Summer2027-Internships"
       },
       "state": "merged",
       "title": "Add-VMware-internship",
       "updatedAt": "2021-07-14T18:21:44Z",
-      "url": "https://github.com/SimplifyJobs/Summer2026-Internships/pull/382"
+      "url": "https://github.com/SimplifyJobs/Summer2027-Internships/pull/382"
     }
   ]
 }
