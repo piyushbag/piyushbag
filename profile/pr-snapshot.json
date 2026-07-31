@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-07-30",
+  "generated_at": "2026-07-31",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 8662,
+      "repository": {
+        "name": "apicurio-registry",
+        "nameWithOwner": "Apicurio/apicurio-registry"
+      },
+      "state": "open",
+      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
+      "updatedAt": "2026-07-31T13:27:01Z",
+      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 90,
+      "repository": {
+        "name": "justlend-docs",
+        "nameWithOwner": "justlend/justlend-docs"
+      },
+      "state": "open",
+      "title": "docs: add guide for resolving contract addresses",
+      "updatedAt": "2026-07-31T09:46:29Z",
+      "url": "https://github.com/justlend/justlend-docs/pull/90"
+    },
+    {
+      "number": 153,
+      "repository": {
+        "name": "lore",
+        "nameWithOwner": "EpicGames/lore"
+      },
+      "state": "open",
+      "title": "Honor --dry-run when staging files",
+      "updatedAt": "2026-07-31T00:37:59Z",
+      "url": "https://github.com/EpicGames/lore/pull/153"
+    },
+    {
+      "number": 152,
+      "repository": {
+        "name": "lore",
+        "nameWithOwner": "EpicGames/lore"
+      },
+      "state": "open",
+      "title": "Fix branch latest update on explicit remote sync",
+      "updatedAt": "2026-07-31T00:37:55Z",
+      "url": "https://github.com/EpicGames/lore/pull/152"
+    },
     {
       "number": 110884,
       "repository": {
@@ -10,8 +54,19 @@
       },
       "state": "open",
       "title": "fix(browser): prove post-action target continuity before adopting a tab",
-      "updatedAt": "2026-07-30T17:19:32Z",
+      "updatedAt": "2026-07-30T18:21:52Z",
       "url": "https://github.com/openclaw/openclaw/pull/110884"
+    },
+    {
+      "number": 10488,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "open",
+      "title": "fix(acp): keep loadSession usable when recipe hydration fails",
+      "updatedAt": "2026-07-30T18:00:41Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10488"
     },
     {
       "number": 110882,
@@ -21,19 +76,8 @@
       },
       "state": "open",
       "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
-      "updatedAt": "2026-07-30T17:13:57Z",
+      "updatedAt": "2026-07-30T17:27:58Z",
       "url": "https://github.com/openclaw/openclaw/pull/110882"
-    },
-    {
-      "number": 8662,
-      "repository": {
-        "name": "apicurio-registry",
-        "nameWithOwner": "Apicurio/apicurio-registry"
-      },
-      "state": "open",
-      "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-30T16:48:08Z",
-      "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
     },
     {
       "number": 2207,
@@ -67,17 +111,6 @@
       "title": "fix(computercontroller): block SSRF targets in web_scrape",
       "updatedAt": "2026-07-30T14:13:29Z",
       "url": "https://github.com/aaif-goose/goose/pull/10560"
-    },
-    {
-      "number": 10488,
-      "repository": {
-        "name": "goose",
-        "nameWithOwner": "aaif-goose/goose"
-      },
-      "state": "open",
-      "title": "fix(acp): keep loadSession usable when recipe hydration fails",
-      "updatedAt": "2026-07-30T14:12:40Z",
-      "url": "https://github.com/aaif-goose/goose/pull/10488"
     },
     {
       "number": 1141,
@@ -375,17 +408,6 @@
       "title": "docs: update KaminoMarket.load examples for v7 API",
       "updatedAt": "2026-07-21T17:52:27Z",
       "url": "https://github.com/Kamino-Finance/klend-sdk/pull/13"
-    },
-    {
-      "number": 90,
-      "repository": {
-        "name": "justlend-docs",
-        "nameWithOwner": "justlend/justlend-docs"
-      },
-      "state": "open",
-      "title": "docs: add guide for resolving contract addresses",
-      "updatedAt": "2026-07-21T17:52:23Z",
-      "url": "https://github.com/justlend/justlend-docs/pull/90"
     },
     {
       "number": 502,
