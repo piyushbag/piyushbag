@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31",
+  "generated_at": "2026-08-01",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,8 +10,30 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-07-31T13:27:01Z",
+      "updatedAt": "2026-08-01T12:35:56Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 1539,
+      "repository": {
+        "name": "inspector",
+        "nameWithOwner": "modelcontextprotocol/inspector"
+      },
+      "state": "closed",
+      "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
+      "updatedAt": "2026-07-31T19:36:49Z",
+      "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
+    },
+    {
+      "number": 10560,
+      "repository": {
+        "name": "goose",
+        "nameWithOwner": "aaif-goose/goose"
+      },
+      "state": "closed",
+      "title": "fix(computercontroller): block SSRF targets in web_scrape",
+      "updatedAt": "2026-07-31T19:21:07Z",
+      "url": "https://github.com/aaif-goose/goose/pull/10560"
     },
     {
       "number": 90,
@@ -102,17 +124,6 @@
       "url": "https://github.com/aaif-goose/goose/pull/10561"
     },
     {
-      "number": 10560,
-      "repository": {
-        "name": "goose",
-        "nameWithOwner": "aaif-goose/goose"
-      },
-      "state": "open",
-      "title": "fix(computercontroller): block SSRF targets in web_scrape",
-      "updatedAt": "2026-07-30T14:13:29Z",
-      "url": "https://github.com/aaif-goose/goose/pull/10560"
-    },
-    {
       "number": 1141,
       "repository": {
         "name": "a2a-python",
@@ -133,17 +144,6 @@
       "title": "mcp: reject discover when transport lacks version",
       "updatedAt": "2026-07-28T16:42:47Z",
       "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1108"
-    },
-    {
-      "number": 1539,
-      "repository": {
-        "name": "inspector",
-        "nameWithOwner": "modelcontextprotocol/inspector"
-      },
-      "state": "open",
-      "title": "fix(ci): link e2e PR summary to Playwright artifact download (#1259)",
-      "updatedAt": "2026-07-28T03:04:08Z",
-      "url": "https://github.com/modelcontextprotocol/inspector/pull/1539"
     },
     {
       "number": 67054,
