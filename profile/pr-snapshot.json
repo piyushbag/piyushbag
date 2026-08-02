@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-08-02",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 110882,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
+      "updatedAt": "2026-08-02T15:42:59Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110882"
+    },
+    {
+      "number": 110884,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): prove post-action target continuity before adopting a tab",
+      "updatedAt": "2026-08-02T15:17:25Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110884"
+    },
     {
       "number": 8662,
       "repository": {
@@ -10,7 +32,7 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-08-01T12:35:56Z",
+      "updatedAt": "2026-08-02T12:37:10Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
     },
     {
@@ -69,17 +91,6 @@
       "url": "https://github.com/EpicGames/lore/pull/152"
     },
     {
-      "number": 110884,
-      "repository": {
-        "name": "openclaw",
-        "nameWithOwner": "openclaw/openclaw"
-      },
-      "state": "open",
-      "title": "fix(browser): prove post-action target continuity before adopting a tab",
-      "updatedAt": "2026-07-30T18:21:52Z",
-      "url": "https://github.com/openclaw/openclaw/pull/110884"
-    },
-    {
       "number": 10488,
       "repository": {
         "name": "goose",
@@ -89,17 +100,6 @@
       "title": "fix(acp): keep loadSession usable when recipe hydration fails",
       "updatedAt": "2026-07-30T18:00:41Z",
       "url": "https://github.com/aaif-goose/goose/pull/10488"
-    },
-    {
-      "number": 110882,
-      "repository": {
-        "name": "openclaw",
-        "nameWithOwner": "openclaw/openclaw"
-      },
-      "state": "open",
-      "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
-      "updatedAt": "2026-07-30T17:27:58Z",
-      "url": "https://github.com/openclaw/openclaw/pull/110882"
     },
     {
       "number": 2207,
