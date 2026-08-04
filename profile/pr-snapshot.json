@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03",
+  "generated_at": "2026-08-04",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,8 +10,19 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-08-03T13:18:47Z",
+      "updatedAt": "2026-08-04T12:55:54Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 110884,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): prove post-action target continuity before adopting a tab",
+      "updatedAt": "2026-08-04T06:16:45Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110884"
     },
     {
       "number": 110882,
@@ -23,17 +34,6 @@
       "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
       "updatedAt": "2026-08-02T20:51:30Z",
       "url": "https://github.com/openclaw/openclaw/pull/110882"
-    },
-    {
-      "number": 110884,
-      "repository": {
-        "name": "openclaw",
-        "nameWithOwner": "openclaw/openclaw"
-      },
-      "state": "open",
-      "title": "fix(browser): prove post-action target continuity before adopting a tab",
-      "updatedAt": "2026-08-02T20:50:23Z",
-      "url": "https://github.com/openclaw/openclaw/pull/110884"
     },
     {
       "number": 1539,
