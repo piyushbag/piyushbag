@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04",
+  "generated_at": "2026-08-05",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,8 +10,41 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-08-04T12:55:54Z",
+      "updatedAt": "2026-08-05T12:54:19Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 1108,
+      "repository": {
+        "name": "go-sdk",
+        "nameWithOwner": "modelcontextprotocol/go-sdk"
+      },
+      "state": "closed",
+      "title": "mcp: reject discover when transport lacks version",
+      "updatedAt": "2026-08-05T10:31:47Z",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1108"
+    },
+    {
+      "number": 32,
+      "repository": {
+        "name": "maple-core-v2",
+        "nameWithOwner": "maple-labs/maple-core-v2"
+      },
+      "state": "closed",
+      "title": "docs: fix README test directory path",
+      "updatedAt": "2026-08-05T07:22:22Z",
+      "url": "https://github.com/maple-labs/maple-core-v2/pull/32"
+    },
+    {
+      "number": 2588,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "merged",
+      "title": "fix(config): fail startup when a static local bind cannot be opened",
+      "updatedAt": "2026-08-04T20:57:09Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2588"
     },
     {
       "number": 110884,
@@ -135,17 +168,6 @@
       "url": "https://github.com/a2aproject/a2a-python/pull/1141"
     },
     {
-      "number": 1108,
-      "repository": {
-        "name": "go-sdk",
-        "nameWithOwner": "modelcontextprotocol/go-sdk"
-      },
-      "state": "open",
-      "title": "mcp: reject discover when transport lacks version",
-      "updatedAt": "2026-07-28T16:42:47Z",
-      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1108"
-    },
-    {
       "number": 67054,
       "repository": {
         "name": "hermes-agent",
@@ -199,17 +221,6 @@
       "title": "scheduler: periodically retry inadmissible workloads",
       "updatedAt": "2026-07-24T18:40:54Z",
       "url": "https://github.com/kubernetes-sigs/kueue/pull/13483"
-    },
-    {
-      "number": 2588,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(config): fail startup when a static local bind cannot be opened",
-      "updatedAt": "2026-07-23T16:53:46Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2588"
     },
     {
       "number": 2540,
@@ -331,17 +342,6 @@
       "title": "chore: run build steps before npm test",
       "updatedAt": "2026-07-21T18:06:30Z",
       "url": "https://github.com/maple-labs/maple-js/pull/276"
-    },
-    {
-      "number": 32,
-      "repository": {
-        "name": "maple-core-v2",
-        "nameWithOwner": "maple-labs/maple-core-v2"
-      },
-      "state": "open",
-      "title": "docs: fix README test directory path",
-      "updatedAt": "2026-07-21T18:05:07Z",
-      "url": "https://github.com/maple-labs/maple-core-v2/pull/32"
     },
     {
       "number": 1324,
