@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05",
+  "generated_at": "2026-08-06",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,8 +10,19 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-08-05T12:54:19Z",
+      "updatedAt": "2026-08-06T12:54:52Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 110884,
+      "repository": {
+        "name": "openclaw",
+        "nameWithOwner": "openclaw/openclaw"
+      },
+      "state": "open",
+      "title": "fix(browser): prove post-action target continuity before adopting a tab",
+      "updatedAt": "2026-08-06T05:46:38Z",
+      "url": "https://github.com/openclaw/openclaw/pull/110884"
     },
     {
       "number": 1108,
@@ -45,17 +56,6 @@
       "title": "fix(config): fail startup when a static local bind cannot be opened",
       "updatedAt": "2026-08-04T20:57:09Z",
       "url": "https://github.com/agentgateway/agentgateway/pull/2588"
-    },
-    {
-      "number": 110884,
-      "repository": {
-        "name": "openclaw",
-        "nameWithOwner": "openclaw/openclaw"
-      },
-      "state": "open",
-      "title": "fix(browser): prove post-action target continuity before adopting a tab",
-      "updatedAt": "2026-08-04T06:16:45Z",
-      "url": "https://github.com/openclaw/openclaw/pull/110884"
     },
     {
       "number": 110882,
