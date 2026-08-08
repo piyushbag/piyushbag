@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07",
+  "generated_at": "2026-08-08",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,7 +10,7 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-08-07T12:30:39Z",
+      "updatedAt": "2026-08-08T12:26:37Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
     },
     {
