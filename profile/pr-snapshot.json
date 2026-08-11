@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10",
+  "generated_at": "2026-08-11",
   "author": "piyushbag",
   "pull_requests": [
     {
@@ -10,8 +10,19 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-08-10T12:33:56Z",
+      "updatedAt": "2026-08-11T12:30:16Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
+    },
+    {
+      "number": 13483,
+      "repository": {
+        "name": "kueue",
+        "nameWithOwner": "kubernetes-sigs/kueue"
+      },
+      "state": "open",
+      "title": "scheduler: periodically retry inadmissible workloads",
+      "updatedAt": "2026-08-11T02:10:50Z",
+      "url": "https://github.com/kubernetes-sigs/kueue/pull/13483"
     },
     {
       "number": 10561,
@@ -210,17 +221,6 @@
       "title": "fix(ts-oss/milvus): fall back to dense-only schema on pre-2.5 servers",
       "updatedAt": "2026-07-25T15:43:33Z",
       "url": "https://github.com/mem0ai/mem0/pull/6593"
-    },
-    {
-      "number": 13483,
-      "repository": {
-        "name": "kueue",
-        "nameWithOwner": "kubernetes-sigs/kueue"
-      },
-      "state": "open",
-      "title": "scheduler: periodically retry inadmissible workloads",
-      "updatedAt": "2026-07-24T18:40:54Z",
-      "url": "https://github.com/kubernetes-sigs/kueue/pull/13483"
     },
     {
       "number": 2540,
