@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-08-11",
+  "generated_at": "2026-08-12",
   "author": "piyushbag",
   "pull_requests": [
+    {
+      "number": 2207,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "merged",
+      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
+      "updatedAt": "2026-08-12T16:00:31Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
+    },
     {
       "number": 8662,
       "repository": {
@@ -10,7 +21,7 @@
       },
       "state": "open",
       "title": "fix(rules): detect MCP tool parameter type and enum breaking changes",
-      "updatedAt": "2026-08-11T12:30:16Z",
+      "updatedAt": "2026-08-12T12:31:58Z",
       "url": "https://github.com/Apicurio/apicurio-registry/pull/8662"
     },
     {
@@ -155,17 +166,6 @@
       "title": "fix(acp): keep loadSession usable when recipe hydration fails",
       "updatedAt": "2026-07-30T18:00:41Z",
       "url": "https://github.com/aaif-goose/goose/pull/10488"
-    },
-    {
-      "number": 2207,
-      "repository": {
-        "name": "agentgateway",
-        "nameWithOwner": "agentgateway/agentgateway"
-      },
-      "state": "open",
-      "title": "fix(mcp): route client JSON-RPC responses for server-initiated requests",
-      "updatedAt": "2026-07-30T16:47:06Z",
-      "url": "https://github.com/agentgateway/agentgateway/pull/2207"
     },
     {
       "number": 1141,
