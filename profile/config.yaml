@@ -4,6 +4,9 @@
 author: piyushbag
 pr_search_limit: 100
 
+# Contributing section lists merged upstream PRs only (shorter README).
+contributing_merged_only: true
+
 # Do not list PRs to your own repos under Contributing to (Building section covers those).
 contributing_exclude_owners:
   - piyushbag
