@@ -40,21 +40,22 @@ def load_config() -> dict:
     return data
 
 
-def fetch_prs(author: str, limit: int) -> list[dict]:
-    data = gh_json(
-        [
-            "search",
-            "prs",
-            f"--author={author}",
-            f"--limit={limit}",
-            "--json",
-            "repository,title,number,state,url,updatedAt",
-            "--sort",
-            "updated",
-            "--order",
-            "desc",
-        ]
-    )
+def fetch_prs(author: str, limit: int, *, merged_only: bool) -> list[dict]:
+    args = [
+        "search",
+        "prs",
+        f"--author={author}",
+        f"--limit={limit}",
+        "--json",
+        "repository,title,number,state,url,updatedAt,closedAt",
+        "--sort",
+        "updated",
+        "--order",
+        "desc",
+    ]
+    if merged_only:
+        args.append("--merged")
+    data = gh_json(args)
     return data if isinstance(data, list) else []
 
 
@@ -67,11 +68,17 @@ def repo_stars(repo: str) -> int:
     return stars
 
 
+def pr_activity_date(pr: dict) -> str | None:
+    if (pr.get("state") or "").lower() == "merged":
+        return pr.get("closedAt") or pr.get("updatedAt")
+    return pr.get("updatedAt")
+
+
 def pr_recent_enough(config: dict, pr: dict) -> bool:
     since = config.get("contributing_since")
     if not since:
         return True
-    updated = pr.get("updatedAt")
+    updated = pr_activity_date(pr)
     if not updated:
         return True
     try:
@@ -80,6 +87,10 @@ def pr_recent_enough(config: dict, pr: dict) -> bool:
         return touched.date() >= cutoff.date()
     except ValueError:
         return True
+
+
+def is_merged_pr(pr: dict) -> bool:
+    return (pr.get("state") or "").lower() == "merged"
 
 
 def display_name(config: dict, repo: str) -> str:
@@ -112,9 +123,7 @@ def format_pr(pr: dict) -> str:
     num = pr["number"]
     url = pr["url"]
     title = pr["title"].strip()
-    state = (pr.get("state") or "").lower()
-    suffix = " merged" if state == "merged" else ""
-    return f"{title} ([#{num}]({url}){suffix})"
+    return f"{title} ([#{num}]({url}) merged)"
 
 
 def org_display_name(config: dict, org: str) -> str:
@@ -124,33 +133,45 @@ def org_display_name(config: dict, org: str) -> str:
     return org
 
 
-def build_contributing_lines(config: dict, prs: list[dict]) -> list[str]:
-    by_repo: dict[str, list[dict]] = defaultdict(list)
+def contributing_prs(config: dict, prs: list[dict]) -> list[dict]:
+    merged_only = config.get("contributing_merged_only", True)
+    selected: list[dict] = []
     for pr in prs:
+        if merged_only and not is_merged_pr(pr):
+            continue
         repo = pr["repository"]["nameWithOwner"]
         if should_include_repo(config, repo) and pr_recent_enough(config, pr):
-            by_repo[repo].append(pr)
+            selected.append(pr)
+    return selected
+
+
+def build_contributing_lines(config: dict, prs: list[dict]) -> list[str]:
+    by_repo: dict[str, list[dict]] = defaultdict(list)
+    for pr in contributing_prs(config, prs):
+        by_repo[pr["repository"]["nameWithOwner"]].append(pr)
 
     by_org: dict[str, list[str]] = defaultdict(list)
-    for repo, repo_prs in by_repo.items():
-        org = repo.split("/", 1)[0]
-        by_org[org].append(repo)
+    for repo in by_repo:
+        by_org[repo.split("/", 1)[0]].append(repo)
 
     def org_sort_key(org: str) -> tuple[int, str]:
         repos = by_org[org]
-        total_stars = sum(repo_stars(r) for r in repos)
-        return (-total_stars, org.lower())
+        merged_count = sum(len(by_repo[r]) for r in repos)
+        return (-merged_count, org.lower())
+
+    def repo_sort_key(repo: str) -> tuple[int, int, str]:
+        return (-len(by_repo[repo]), -repo_stars(repo), repo.lower())
 
     lines: list[str] = []
     for org in sorted(by_org, key=org_sort_key):
         org_label = org_display_name(config, org)
         lines.append(f"- **[{org_label}](https://github.com/{org})**")
-        for repo in sorted(by_org[org], key=lambda r: (-repo_stars(r), r.lower())):
+        for repo in sorted(by_org[org], key=repo_sort_key):
             name = display_name(config, repo)
             lines.append(
                 f"  - **[{name}](https://github.com/{repo})** {star_badge_markdown(repo)}"
             )
-            for pr in sorted(by_repo[repo], key=lambda p: p["number"]):
+            for pr in sorted(by_repo[repo], key=lambda p: p["number"], reverse=True):
                 lines.append(f"    - {format_pr(pr)}")
     return lines
 
@@ -164,30 +185,12 @@ def build_tagline(config: dict, prs: list[dict]) -> str:
     stars = repo_stars(first)
     parts = [f"[{first.split('/')[-1]}](https://github.com/{first}) {stars}★"]
 
-    merged_upstream = [
-        p
-        for p in prs
-        if (p.get("state") or "").lower() == "merged"
-        and should_include_repo(config, p["repository"]["nameWithOwner"])
-    ]
+    merged_upstream = contributing_prs(config, prs)
     if merged_upstream:
         top = merged_upstream[0]
         repo = top["repository"]["nameWithOwner"]
         label = display_name(config, repo)
-        parts.append(
-            f"[{label}]({top['url']}) merged"
-        )
-
-    open_upstream = [
-        p
-        for p in prs
-        if (p.get("state") or "").lower() == "open"
-        and should_include_repo(config, p["repository"]["nameWithOwner"])
-    ]
-    if open_upstream:
-        top = open_upstream[0]
-        label = display_name(config, top["repository"]["nameWithOwner"])
-        parts.append(f"[{label}]({top['url']}) in flight")
+        parts.append(f"[{label}]({top['url']}) merged")
 
     return " · ".join(parts)
 
@@ -235,12 +238,14 @@ Test automation engineer at [{role['company']}]({role['company_url']}). {role['t
 """
 
 
-def write_snapshot(prs: list[dict]) -> None:
+def write_snapshot(config: dict, prs: list[dict]) -> None:
     SNAPSHOT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    listed = contributing_prs(config, prs)
     payload = {
         "generated_at": date.today().isoformat(),
-        "author": "piyushbag",
-        "pull_requests": prs,
+        "author": config.get("author", "piyushbag"),
+        "merged_only": config.get("contributing_merged_only", True),
+        "pull_requests": listed,
     }
     SNAPSHOT_PATH.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
@@ -249,12 +254,13 @@ def main() -> int:
     config = load_config()
     author = config.get("author", "piyushbag")
     limit = int(config.get("pr_search_limit", 100))
+    merged_only = config.get("contributing_merged_only", True)
 
-    prs = fetch_prs(author, limit)
+    prs = fetch_prs(author, limit, merged_only=merged_only)
     if prs is None:
         return 1
 
-    write_snapshot(prs)
+    write_snapshot(config, prs)
     readme = build_readme(config, prs)
 
     if README_PATH.exists() and README_PATH.read_text(encoding="utf-8") == readme:
@@ -262,9 +268,14 @@ def main() -> int:
         return 0
 
     README_PATH.write_text(readme, encoding="utf-8")
-    org_count = len({r.split("/", 1)[0] for r in {p["repository"]["nameWithOwner"] for p in prs if should_include_repo(config, p["repository"]["nameWithOwner"]) and pr_recent_enough(config, p)}})
-    repo_count = len([r for r in {p["repository"]["nameWithOwner"] for p in prs if should_include_repo(config, p["repository"]["nameWithOwner"]) and pr_recent_enough(config, p)}])
-    print(f"README.md updated ({len(prs)} PRs scanned, {org_count} orgs, {repo_count} repos)")
+    listed = contributing_prs(config, prs)
+    org_count = len({p["repository"]["nameWithOwner"].split("/", 1)[0] for p in listed})
+    repo_count = len({p["repository"]["nameWithOwner"] for p in listed})
+    scope = "merged" if merged_only else "all"
+    print(
+        f"README.md updated ({len(prs)} {scope} PRs scanned, "
+        f"{len(listed)} listed, {org_count} orgs, {repo_count} repos)"
+    )
     return 0
 
 
