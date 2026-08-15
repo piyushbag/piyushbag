@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-15",
   "author": "piyushbag",
   "merged_only": true,
   "pull_requests": [
+    {
+      "closedAt": "2026-08-14T19:43:25Z",
+      "number": 3022,
+      "repository": {
+        "name": "agentgateway",
+        "nameWithOwner": "agentgateway/agentgateway"
+      },
+      "state": "merged",
+      "title": "feat(mcp): opt-in DNS rebinding protection for localhost Host/Origin",
+      "updatedAt": "2026-08-14T19:43:25Z",
+      "url": "https://github.com/agentgateway/agentgateway/pull/3022"
+    },
     {
       "closedAt": "2026-08-12T16:00:31Z",
       "number": 2207,
