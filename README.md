@@ -12,7 +12,7 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
 #### Contributing to
 
 - **[agentgateway](https://github.com/agentgateway)**
-  - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/badge/stars-4629-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentgateway/agentgateway/stargazers)
+  - **[agentgateway](https://github.com/agentgateway/agentgateway)** [![GitHub stars](https://img.shields.io/badge/stars-4633-gold?style=flat&logo=github&logoColor=white)](https://github.com/agentgateway/agentgateway/stargazers)
     - feat(mcp): opt-in DNS rebinding protection for localhost Host/Origin ([#3022](https://github.com/agentgateway/agentgateway/pull/3022) merged)
     - feat(transformation): add CEL replace mode for headers ([#2589](https://github.com/agentgateway/agentgateway/pull/2589) merged)
     - fix(config): fail startup when a static local bind cannot be opened ([#2588](https://github.com/agentgateway/agentgateway/pull/2588) merged)
@@ -21,16 +21,16 @@ Test automation engineer at [Arista Networks](https://www.arista.com). Post-sili
     - fix(mcp): multiplex opaque resource URIs ([#2538](https://github.com/agentgateway/agentgateway/pull/2538) merged)
     - fix(mcp): route client JSON-RPC responses for server-initiated requests ([#2207](https://github.com/agentgateway/agentgateway/pull/2207) merged)
 - **[Goose (AAIF)](https://github.com/aaif-goose)**
-  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/badge/stars-53622-gold?style=flat&logo=github&logoColor=white)](https://github.com/aaif-goose/goose/stargazers)
+  - **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/badge/stars-53648-gold?style=flat&logo=github&logoColor=white)](https://github.com/aaif-goose/goose/stargazers)
     - fix(server): return effective context limit from /model-info ([#10165](https://github.com/aaif-goose/goose/pull/10165) merged)
 - **[Model Context Protocol](https://github.com/modelcontextprotocol)**
-  - **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-5033-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/go-sdk/stargazers)
+  - **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)** [![GitHub stars](https://img.shields.io/badge/stars-5035-gold?style=flat&logo=github&logoColor=white)](https://github.com/modelcontextprotocol/go-sdk/stargazers)
     - fix(jsonrpc2): decode requests when method key is present ([#1000](https://github.com/modelcontextprotocol/go-sdk/pull/1000) merged)
 - **[openclaw](https://github.com/openclaw)**
-  - **[Openclaw](https://github.com/openclaw/openclaw)** [![GitHub stars](https://img.shields.io/badge/stars-387934-gold?style=flat&logo=github&logoColor=white)](https://github.com/openclaw/openclaw/stargazers)
+  - **[Openclaw](https://github.com/openclaw/openclaw)** [![GitHub stars](https://img.shields.io/badge/stars-387985-gold?style=flat&logo=github&logoColor=white)](https://github.com/openclaw/openclaw/stargazers)
     - fix(browser): prove post-action target continuity before adopting a tab ([#110884](https://github.com/openclaw/openclaw/pull/110884) merged)
 - **[steipete](https://github.com/steipete)**
-  - **[Oracle](https://github.com/steipete/oracle)** [![GitHub stars](https://img.shields.io/badge/stars-3670-gold?style=flat&logo=github&logoColor=white)](https://github.com/steipete/oracle/stargazers)
+  - **[Oracle](https://github.com/steipete/oracle)** [![GitHub stars](https://img.shields.io/badge/stars-3674-gold?style=flat&logo=github&logoColor=white)](https://github.com/steipete/oracle/stargazers)
     - fix(browser): recover answers after recoverable CDP disconnect ([#327](https://github.com/steipete/oracle/pull/327) merged)
 
 #### Writing
