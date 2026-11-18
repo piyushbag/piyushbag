@@ -14,15 +14,20 @@ merge_protections:
       - base = main
       - author = piyushbag
     success_conditions:
-      - check-success-or-neutral = Cursor Bugbot
+      -
 
+        or:
+          - check-success = Cursor Bugbot
+          - check-neutral = Cursor Bugbot
 pull_request_rules:
   - name: auto-merge when Bugbot passes (piyushbag)
     conditions:
       - base = main
       - author = piyushbag
       - -closed
-      - check-success-or-neutral = Cursor Bugbot
+      - or:
+          - check-success = Cursor Bugbot
+          - check-neutral = Cursor Bugbot
     actions:
       merge:
         method: squash
